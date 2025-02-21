@@ -21,8 +21,8 @@ export default function Home() {
         <div className="mb-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Web3 & Crypto Slang Dictionary</h2>
           <p className="text-muted-foreground">
-            Explore the colorful and often confusing world of cryptocurrency jargon. From HODLing to
-            Top Blasts, we've got you covered.
+            Explore the colorful and often confusing world of cryptocurrency jargon. From{" "}
+            <b>HODLing</b> to <b>Top Blasts</b>, we've got you covered.
           </p>
         </div>
         <WordOfTheDay terms={terms} />
