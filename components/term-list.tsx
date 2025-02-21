@@ -216,11 +216,6 @@ export const terms = [
       "The total amount of a cryptocurrency traded within a specific time frame, often used as an indicator of market activity and liquidity.",
   },
   {
-    term: "Bundle",
-    definition:
-      "A collection of different cryptocurrencies or tokens sold together as a package, often used in ICOs or as an investment strategy.",
-  },
-  {
     term: "Lock Supply",
     definition:
       "The act of making a portion of a token's supply unavailable for a certain period, often done to create scarcity or build trust with investors.",
