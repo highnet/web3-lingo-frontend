@@ -228,7 +228,7 @@ export const terms = [
   {
     term: "Migrate",
     definition:
-      "The process of moving tokens or a project from one blockchain to another, often done to take advantage of better features or lower fees.",
+      "The process of moving a token to a decentralized exchange after reaching a target market capitalization. During migration, a portion of the token's value is used to create a trading pair, establishing permanent liquidity and enabling wider trading access. This transition marks the end of the initial bonding curve phase and the beginning of free market trading.",
   },
   {
     term: "Fake Domain",
@@ -432,7 +432,7 @@ export const terms = [
   {
     term: "Bonding",
     definition:
-      "A DeFi mechanism where users provide liquidity or assets to a protocol in exchange for discounted tokens, usually vested over time.",
+      "The active process of a token transitioning from its initial distribution phase to being available on a decentralized exchange. When someone says 'it's bonding right now!' or 'it just bonded!', they're referring to the token completing its initial fundraising phase and migrating to open trading on a DEX, where liquidity is established and the token can be freely traded.",
   },
   {
     term: "Bottom",
@@ -585,9 +585,14 @@ export const terms = [
       "When a token's price returns to your entry point after significant movement up or down, causing emotional stress from the temporary gains or losses experienced during the price action.",
   },
   {
-    term: "Ripping",
+    term: "Bonding Curve",
     definition:
-      "Describes aggressive price movement, either upward or downward. Often used with directional indicators like 'ripping up' or 'ripping down' to specify the movement.",
+      "A mathematical formula that determines token pricing based on supply. As more tokens are purchased, the price increases along a predefined curve. This creates a transparent and fair token distribution mechanism where early buyers pay less, but everyone can participate. The curve typically has a target market cap at which point the token transitions to open market trading.",
+  },
+  {
+    term: "LP",
+    definition:
+      "Liquidity Pool. A collection of funds locked in a smart contract that enables trading by providing liquidity for token pairs on decentralized exchanges. When tokens migrate from their initial distribution phase, a portion of the raised capital is typically used to establish these pools, with the LP tokens often burned to ensure permanent liquidity.",
   },
 ]
 
@@ -597,7 +602,9 @@ const newTerms = [
   "Exit Liquidity",
   "Front Running",
   "Moon or Dust",
-  "Supporting the Chart"
+  "Supporting the Chart",
+  "Bonding Curve",
+  "LP"
 ]
 
 interface TermListProps {
@@ -700,4 +707,3 @@ export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
     </div>
   )
 }
-
