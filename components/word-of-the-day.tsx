@@ -1,11 +1,11 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 interface Term {
-  term: string
-  definition: string
+  readonly term: string
+  readonly definition: string
 }
 
-function getWordOfTheDay(terms: Term[]): Term {
+function getWordOfTheDay(terms: readonly Term[]): Term {
   // Use the current date as a seed for the random selection
   const today = new Date()
   const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate()
@@ -13,7 +13,7 @@ function getWordOfTheDay(terms: Term[]): Term {
   return terms[index]
 }
 
-export function WordOfTheDay({ terms }: { terms: Term[] }) {
+export function WordOfTheDay({ terms }: Readonly<{ terms: readonly Term[] }>) {
   const wordOfTheDay = getWordOfTheDay(terms)
 
   return (
