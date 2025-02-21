@@ -123,7 +123,7 @@ export const terms = [
   {
     term: "Floor",
     definition:
-      "In the context of NFTs, the 'floor price' is the lowest price at which an NFT from a specific collection is currently available for purchase in the marketplace.",
+      "The lowest price level at which a cryptocurrency or token typically finds buying support. While commonly used in NFT trading, it applies to any crypto asset where there's a price level that historically resists further downward movement.",
   },
   {
     term: "Scanning",
@@ -191,11 +191,6 @@ export const terms = [
       "Contract Address. The unique identifier for a smart contract on the blockchain, often used to verify or interact with a specific token or project.",
   },
   {
-    term: "Round Tripping",
-    definition:
-      "A trading strategy where an investor buys and sells the same asset quickly to artificially inflate trading volume or manipulate prices.",
-  },
-  {
     term: "Entry",
     definition:
       "The price point at which an investor buys into a cryptocurrency or token. 'Good entry' suggests a favorable buying price.",
@@ -203,7 +198,7 @@ export const terms = [
   {
     term: "PVE",
     definition:
-      "Price vs. Everything. A mindset where traders focus solely on price movements, disregarding other factors like fundamentals or project development.",
+      "Player Versus Environment. In crypto, refers to insider traders cooperating to promote tokens to retail investors ('normies'). Different from its gaming origin of player versus environment.",
   },
   {
     term: "Bleeding",
@@ -248,7 +243,7 @@ export const terms = [
   {
     term: "Attention",
     definition:
-      "In crypto trading, refers to increased interest or focus on a particular token or project, often leading to price movements.",
+      "Increased interest or focus on a particular token or project, often leading to price movements. Crypto Twitter (CT) typically dictates what gets attention in the market, with influential accounts capable of shifting focus to specific projects.",
   },
   {
     term: "Snipe",
@@ -263,21 +258,16 @@ export const terms = [
   {
     term: "Supporting the Chart",
     definition:
-      "When investors buy a token to prevent its price from falling further, often done by project supporters or team members.",
+      "When investors buy a token to prevent its price from falling further. Can happen intentionally through coordinated buying or unintentionally when multiple traders independently decide to buy at similar price levels.",
   },
   {
     term: "Nuking the Chart",
     definition: "A rapid and significant drop in a token's price, often due to large sell orders or negative news.",
   },
   {
-    term: "RIP",
-    definition:
-      "Rest In Peace. Used sarcastically in crypto to acknowledge a significant price drop or the failure of a project.",
-  },
-  {
     term: "Beta Play",
     definition:
-      "Investing in a new or experimental project or feature, often with high risk but potential for high rewards.",
+      "A project that attempts to replicate or improve upon an existing successful project. For example, Shiba Inu is considered a beta play of Dogecoin. Beta plays often try to capitalize on the original project's success while adding new features or improvements.",
   },
   {
     term: "Holding the Bag",
@@ -317,7 +307,7 @@ export const terms = [
   {
     term: "Stable",
     definition:
-      "Short for 'stablecoin', a type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency like the US dollar.",
+      "The act of converting volatile crypto assets into stablecoins to secure profits or reduce risk. Also refers to stablecoins themselves, which are cryptocurrencies designed to maintain a stable value.",
   },
   {
     term: "Sell Your Initials",
@@ -420,9 +410,9 @@ export const terms = [
       "In crypto trading, refers to a significant price correction that brings a token's value back to a previous, often lower, level.",
   },
   {
-    term: "Sleep on It",
+    term: "Sleep On It",
     definition:
-      "Advice given to avoid making impulsive trading decisions, suggesting to wait and reconsider before taking action.",
+      "To miss or ignore a potentially profitable opportunity, often realized in hindsight. Used to express regret for not participating in a successful trade or investment.",
   },
   {
     term: "Moon or Dust",
@@ -433,11 +423,6 @@ export const terms = [
     term: "DCAing",
     definition:
       "Dollar Cost Averaging. A strategy of investing a fixed amount at regular intervals, regardless of price, to reduce the impact of volatility.",
-  },
-  {
-    term: "Remove to the Core",
-    definition:
-      "Similar to 'To The Core', describes a rapid and significant decrease in a cryptocurrency's value, often used humorously or sarcastically.",
   },
   {
     term: "ATH",
@@ -477,7 +462,7 @@ export const terms = [
   {
     term: "Fill",
     definition:
-      "When a buy or sell order is completed or 'filled' at the desired price level.",
+      "When a buy or sell order is completed at a specific price. A 'good fill' means the order was executed at or better than the desired price, while a 'bad fill' means the order was executed at a worse price than intended.",
   },
   {
     term: "Fly",
@@ -492,12 +477,12 @@ export const terms = [
   {
     term: "Generational Wealth",
     definition:
-      "The belief that cryptocurrency investments could create enough wealth to sustain multiple generations of a family.",
+      "The belief that cryptocurrency investments could create enough wealth to sustain multiple generations of a family. Often abbreviated as 'gen-wealth' and used to describe potentially life-changing investment opportunities.",
   },
   {
-    term: "gm",
+    term: "GM",
     definition:
-      "Short for 'good morning'. A greeting commonly used in crypto communities to show positivity and engagement, regardless of the time of day.",
+      "Originally meaning 'good morning', evolved to also mean 'Gonna Make it'. Used as both a greeting and an expression of confidence in future success. Derived from 'GMI' (Gonna Make It).",
   },
   {
     term: "Jeet",
@@ -512,12 +497,12 @@ export const terms = [
   {
     term: "PVP",
     definition:
-      "Player Versus Player. In crypto context, refers to zero-sum trading where one trader's profit is another's loss.",
+      "Player Versus Player. In crypto, refers to insider traders competing against each other for profits, often in zero-sum trading situations.",
   },
   {
     term: "Ripping",
     definition:
-      "When a cryptocurrency's price is increasing rapidly and aggressively. Similar to 'mooning' but often implies more volatile movement.",
+      "Describes aggressive price movement, either upward or downward. Often used with directional indicators like 'ripping up' or 'ripping down' to specify the movement.",
   },
   {
     term: "Sink",
@@ -548,6 +533,66 @@ export const terms = [
     term: "wagmi",
     definition:
       "Acronym for 'we're all gonna make it'. An expression of optimism and community solidarity in crypto markets.",
+  },
+  {
+    term: "Aping In",
+    definition:
+      "The act of investing heavily and quickly into a cryptocurrency or project, often driven by FOMO or strong conviction. Originated from the idea of acting impulsively like an ape.",
+  },
+  {
+    term: "Crash",
+    definition:
+      "A sudden and severe drop in price, more dramatic than a dip or correction. Often accompanied by panic selling and can affect either specific tokens or the entire market.",
+  },
+  {
+    term: "Hedge",
+    definition:
+      "A trading strategy where investors take opposing positions to minimize risk. For example, holding both volatile cryptocurrencies and stablecoins, or investing in projects that typically move in opposite directions.",
+  },
+  {
+    term: "Bundle",
+    definition:
+      "When multiple wallets are controlled by the same entity but deliberately separated to appear as different traders. Often used to hide large positions or manipulate trading patterns.",
+  },
+  {
+    term: "Sus",
+    definition:
+      "Short for 'suspicious'. Used to describe potentially fraudulent or questionable behavior in crypto projects, trades, or team activities.",
+  },
+  {
+    term: "Full Clip",
+    definition:
+      "When a trader uses their entire available funds for a single trade or investment. Similar to 'fullport' but specifically refers to using all available funds in a single transaction.",
+  },
+  {
+    term: "Voice Comms",
+    definition:
+      "Voice communications, typically through Discord or Telegram, where traders share real-time information and coordinate trading strategies. Often abbreviated as 'VC'.",
+  },
+  {
+    term: "Redepot",
+    definition:
+      "To deposit additional funds after experiencing significant losses, usually in an attempt to recover previous losses. Often seen as a risky behavior associated with gambling mentality.",
+  },
+  {
+    term: "Average Entry",
+    definition:
+      "The average price at which an investor has accumulated their position in a particular cryptocurrency, calculated across multiple buy-ins.",
+  },
+  {
+    term: "Fake Github",
+    definition:
+      "A fraudulent or copied GitHub repository created to make a crypto project appear more legitimate or technically developed than it actually is.",
+  },
+  {
+    term: "Round Tripping",
+    definition:
+      "When a token's price returns to your entry point after significant movement up or down, causing emotional stress from the temporary gains or losses experienced during the price action.",
+  },
+  {
+    term: "Ripping",
+    definition:
+      "Describes aggressive price movement, either upward or downward. Often used with directional indicators like 'ripping up' or 'ripping down' to specify the movement.",
   },
 ]
 
