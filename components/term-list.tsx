@@ -178,7 +178,7 @@ export const terms = [
   {
     term: "VC",
     definition:
-      "Venture Capital. In crypto, it refers to investors or firms that provide funding to early-stage blockchain projects in exchange for tokens or equity.",
+      "Voice communications, typically through Discord or Telegram, where traders share real-time information and coordinate trading strategies. Often abbreviated as 'VC'.",
   },
   {
     term: "Comms",
@@ -485,7 +485,7 @@ export const terms = [
       "Refers to traders who quickly sell their positions, often at the first sign of profit. Similar to 'paper hands' but with a more negative connotation.",
   },
   {
-    term: "mcap",
+    term: "MCAP",
     definition:
       "Short for Market Capitalization. The total value of a cryptocurrency, calculated by multiplying the current price by the circulating supply.",
   },
@@ -560,11 +560,6 @@ export const terms = [
       "When a trader uses their entire available funds for a single trade or investment. Similar to 'fullport' but specifically refers to using all available funds in a single transaction.",
   },
   {
-    term: "Voice Comms",
-    definition:
-      "Voice communications, typically through Discord or Telegram, where traders share real-time information and coordinate trading strategies. Often abbreviated as 'VC'.",
-  },
-  {
     term: "Redepot",
     definition:
       "To deposit additional funds after experiencing significant losses, usually in an attempt to recover previous losses. Often seen as a risky behavior associated with gambling mentality.",
@@ -598,13 +593,11 @@ export const terms = [
 
 // Set "new" terms (adjust this list as needed)
 const newTerms = [
-  "Copium",
-  "Exit Liquidity",
-  "Front Running",
-  "Moon or Dust",
-  "Supporting the Chart",
-  "Bonding Curve",
-  "LP"
+  "Clipping",
+  "Top Blast",
+  "Stable",
+  "PVP",
+  "PVE",
 ]
 
 interface TermListProps {
