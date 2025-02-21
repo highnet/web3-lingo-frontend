@@ -9,14 +9,14 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Crypto Lingo",
   description: "Common terminology for web3 and crypto trading",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
@@ -27,7 +27,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'

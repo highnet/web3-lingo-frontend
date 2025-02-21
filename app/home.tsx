@@ -2,12 +2,9 @@
 
 import { useState } from "react"
 import { SearchInput } from "@/components/search-input"
-import { TermList } from "@/components/term-list"
+import { TermList, terms } from "@/components/term-list"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { WordOfTheDay } from "@/components/word-of-the-day"
-
-// Import the terms from the TermList component
-import { terms } from "@/components/term-list"
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("")
@@ -24,8 +21,8 @@ export default function Home() {
         <div className="mb-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Web3 & Crypto Slang Dictionary</h2>
           <p className="text-muted-foreground">
-            Explore the colorful and often confusing world of cryptocurrency jargon. From HODLing to Top Blasts, we've
-            got you covered.
+            Explore the colorful and often confusing world of cryptocurrency jargon. From HODLing to
+            Top Blasts, we've got you covered.
           </p>
         </div>
         <WordOfTheDay terms={terms} />
@@ -40,4 +37,3 @@ export default function Home() {
     </div>
   )
 }
-
