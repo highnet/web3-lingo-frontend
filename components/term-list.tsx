@@ -572,13 +572,23 @@ export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
   // Sort terms alphabetically
   const sortedTerms = [...terms].sort((a, b) => a.term.localeCompare(b.term))
 
-  // Filter terms based on search
+  // Improved search filtering
   const filteredTerms = searchTerm
-    ? sortedTerms.filter(
-        (item) =>
-          item.term.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          item.definition.toLowerCase().includes(searchTerm.toLowerCase()),
-      )
+    ? sortedTerms.filter((item) => {
+        const termMatch = item.term.toLowerCase().includes(searchTerm.toLowerCase())
+        const isExactMatch = item.term.toLowerCase() === searchTerm.toLowerCase()
+        
+        // Return exact matches and partial matches in term only
+        return isExactMatch || termMatch
+      })
+      // Sort exact matches first
+      .sort((a, b) => {
+        const aExact = a.term.toLowerCase() === searchTerm.toLowerCase()
+        const bExact = b.term.toLowerCase() === searchTerm.toLowerCase()
+        if (aExact && !bExact) return -1
+        if (!aExact && bExact) return 1
+        return 0
+      })
     : sortedTerms
 
   useEffect(() => {
