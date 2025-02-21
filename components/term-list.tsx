@@ -61,11 +61,6 @@ export const terms = [
       "When a cryptocurrency's price rises dramatically in a short period. 'To the moon!' expresses hope for extremely high returns.",
   },
   {
-    term: "Lambo",
-    definition:
-      "Short for Lamborghini. Used metaphorically to refer to the aspirational wealth that crypto investors hope to achieve, as in 'When Lambo?'",
-  },
-  {
     term: "Shitcoin",
     definition:
       "A derogatory term for cryptocurrencies perceived to have little to no value or no immediate, discernible purpose. Often used for coins with no clear use case or innovative features.",
@@ -106,11 +101,6 @@ export const terms = [
       "A distribution of free tokens or coins to a community, often used as a marketing strategy to increase awareness and adoption of a new cryptocurrency project.",
   },
   {
-    term: "Vaporware",
-    definition:
-      "A project that is announced and promoted but never actually developed or released, or one that consistently fails to meet promised deadlines and features.",
-  },
-  {
     term: "Weak Hands",
     definition:
       "Similar to 'Paper Hands'. Refers to investors who are quick to sell their holdings during market downturns or at the first sign of trouble, often due to lack of confidence or research.",
@@ -121,24 +111,14 @@ export const terms = [
       "A blend of 'hope' and 'opium'. Refers to the irrational optimism or unfounded hope that a coin's value will increase, despite contrary indicators or lack of fundamental value.",
   },
   {
-    term: "To The Core",
-    definition:
-      "The opposite of 'to the moon'. Describes a rapid and significant decrease in a cryptocurrency's value, often used humorously or sarcastically.",
-  },
-  {
-    term: "When Binance?",
-    definition:
-      "A phrase used to ask when a particular cryptocurrency will be listed on the Binance exchange. Often used sarcastically for low-quality projects, as a Binance listing can significantly increase a token's price and liquidity.",
-  },
-  {
     term: "Cope",
     definition:
       "The act of convincing oneself that a failing investment will eventually turn around. Often used to describe irrational justifications for holding onto losing positions.",
   },
   {
-    term: "Ponzicoin",
+    term: "Copium",
     definition:
-      "A derogatory term for cryptocurrencies suspected of operating like Ponzi schemes, where returns for earlier investors are paid using funds from newer investors rather than genuine profits.",
+      "A blend of 'cope' and 'opium'. Similar to 'Hopium', it refers to the psychological state of denial or self-delusion when facing investment losses, where investors create elaborate justifications for why their failing investments will eventually succeed.",
   },
   {
     term: "Floor",
@@ -352,7 +332,7 @@ export const terms = [
   {
     term: "Call the Bottom",
     definition:
-      "To predict the lowest price a cryptocurrency will reach before it starts to recover. Similar to 'Call the Top', but for the lowest point.",
+      "To predict the lowest price a cryptocurrency will reach before it starts to recover. Similar to \"Call the Top\", but for the lowest point.",
   },
   {
     term: "OG",
@@ -459,77 +439,125 @@ export const terms = [
     definition:
       "Similar to 'To The Core', describes a rapid and significant decrease in a cryptocurrency's value, often used humorously or sarcastically.",
   },
+  {
+    term: "ATH",
+    definition:
+      "All-Time High. The highest price a cryptocurrency has ever reached since its launch.",
+  },
+  {
+    term: "Bag",
+    definition:
+      "A significant holding of a particular cryptocurrency. Can be used positively ('nice bag') or negatively ('heavy bag') depending on the investment's performance.",
+  },
+  {
+    term: "Bonding",
+    definition:
+      "A DeFi mechanism where users provide liquidity or assets to a protocol in exchange for discounted tokens, usually vested over time.",
+  },
+  {
+    term: "Bottom",
+    definition:
+      "The lowest price point in a cryptocurrency's downward trend, often used when speculating on whether a price decline has ended.",
+  },
+  {
+    term: "Bottom Signal",
+    definition:
+      "An indicator or event that suggests a cryptocurrency's price has reached its lowest point and may begin to recover.",
+  },
+  {
+    term: "CT",
+    definition:
+      "Crypto Twitter. The community of cryptocurrency enthusiasts, traders, and influencers on Twitter who discuss crypto-related topics.",
+  },
+  {
+    term: "Fade",
+    definition:
+      "To take a trading position opposite to the prevailing market sentiment or a popular trade.",
+  },
+  {
+    term: "Fill",
+    definition:
+      "When a buy or sell order is completed or 'filled' at the desired price level.",
+  },
+  {
+    term: "Fly",
+    definition:
+      "When a cryptocurrency's price increases rapidly. Similar to 'moon' but often used for shorter-term price movements.",
+  },
+  {
+    term: "Gen-wealth",
+    definition:
+      "Short for 'Generational Wealth'. Same meaning as 'Generational Wealth' - the idea that crypto investments could create enough wealth to pass down through generations.",
+  },
+  {
+    term: "Generational Wealth",
+    definition:
+      "The belief that cryptocurrency investments could create enough wealth to sustain multiple generations of a family.",
+  },
+  {
+    term: "gm",
+    definition:
+      "Short for 'good morning'. A greeting commonly used in crypto communities to show positivity and engagement, regardless of the time of day.",
+  },
+  {
+    term: "Jeet",
+    definition:
+      "Refers to traders who quickly sell their positions, often at the first sign of profit. Similar to 'paper hands' but with a more negative connotation.",
+  },
+  {
+    term: "mcap",
+    definition:
+      "Short for Market Capitalization. The total value of a cryptocurrency, calculated by multiplying the current price by the circulating supply.",
+  },
+  {
+    term: "PVP",
+    definition:
+      "Player Versus Player. In crypto context, refers to zero-sum trading where one trader's profit is another's loss.",
+  },
+  {
+    term: "Ripping",
+    definition:
+      "When a cryptocurrency's price is increasing rapidly and aggressively. Similar to 'mooning' but often implies more volatile movement.",
+  },
+  {
+    term: "Sink",
+    definition:
+      "When a cryptocurrency's price drops significantly. Often used to describe rapid, unexpected price decreases.",
+  },
+  {
+    term: "Sitting on My Hands",
+    definition:
+      "A trading strategy where one deliberately avoids making any trades during uncertain market conditions.",
+  },
+  {
+    term: "Spread",
+    definition:
+      "The difference between the highest bid and lowest ask price for a cryptocurrency on an exchange.",
+  },
+  {
+    term: "Top",
+    definition:
+      "The highest price point in a cryptocurrency's upward trend, often used when speculating on whether a price increase has peaked.",
+  },
+  {
+    term: "Top Signal",
+    definition:
+      "An indicator or event that suggests a cryptocurrency's price has reached its peak and may begin to decline.",
+  },
+  {
+    term: "wagmi",
+    definition:
+      "Acronym for 'we're all gonna make it'. An expression of optimism and community solidarity in crypto markets.",
+  },
 ]
 
 // Set "new" terms (adjust this list as needed)
 const newTerms = [
-  "Clipping",
-  "Top Blast",
-  "KOL",
-  "Floor",
-  "Scanning",
-  "Being In",
-  "Copy Trading",
-  "Selling on Us",
-  "Front Running",
-  "Printing",
-  "Paying",
-  "DYOR",
-  "Apeing",
-  "CTO",
-  "VC",
-  "Comms",
-  "CA",
-  "Round Tripping",
-  "Entry",
-  "PVE",
-  "Bleeding",
-  "Side Wallet",
-  "Volume",
-  "Bundle",
-  "Lock Supply",
-  "LARP",
-  "Migrate",
-  "Fake Domain",
-  "Attention",
-  "Snipe",
+  "Copium",
   "Exit Liquidity",
-  "Supporting the Chart",
-  "Nuking the Chart",
-  "RIP",
-  "Beta Play",
-  "Holding the Bag",
-  "Depot",
-  "Top Holder",
-  "Pay Dex",
-  "Getting Liquidated",
-  "Ledger",
-  "Fullport",
-  "Stable",
-  "Sell Your Initials",
-  "Call the Top",
-  "Call the Bottom",
-  "OG",
-  "Sending",
-  "Slow Pick",
-  "Lore",
-  "Normies",
-  "TG",
-  "Meta",
-  "Blasting",
-  "Bidding",
-  "Doxxed",
-  "Running With It",
-  "Killing the Chart",
-  "Mid",
-  "Taking P",
-  "Work for Your Bags",
-  "PNL",
-  "Reset",
-  "Sleep on It",
+  "Front Running",
   "Moon or Dust",
-  "DCAing",
-  "Remove to the Core",
+  "Supporting the Chart"
 ]
 
 export function TermList({ searchTerm = "" }: { searchTerm?: string }) {
