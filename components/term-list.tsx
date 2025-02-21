@@ -470,11 +470,6 @@ export const terms = [
       "Short for 'Generational Wealth'. Same meaning as 'Generational Wealth' - the idea that crypto investments could create enough wealth to pass down through generations.",
   },
   {
-    term: "Generational Wealth",
-    definition:
-      "The belief that cryptocurrency investments could create enough wealth to sustain multiple generations of a family. Often abbreviated as 'gen-wealth' and used to describe potentially life-changing investment opportunities.",
-  },
-  {
     term: "GM",
     definition:
       "Originally meaning 'good morning', evolved to also mean 'Gonna Make it'. Used as both a greeting and an expression of confidence in future success. Derived from 'GMI' (Gonna Make It).",
@@ -525,7 +520,7 @@ export const terms = [
       "An indicator or event that suggests a cryptocurrency's price has reached its peak and may begin to decline.",
   },
   {
-    term: "wagmi",
+    term: "WAGMI",
     definition:
       "Acronym for 'we're all gonna make it'. An expression of optimism and community solidarity in crypto markets.",
   },
