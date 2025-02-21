@@ -593,7 +593,7 @@ export function TermList({ searchTerm = "" }: { searchTerm?: string }) {
     sortedTerms.forEach((term) => {
       const regex = new RegExp(`\\b${term.term}\\b`, "gi")
       highlightedDefinition = highlightedDefinition.replace(regex, (match) => {
-        return `<span class="text-primary font-semibold cursor-pointer" data-term="${match}" tabindex="0" role="link" aria-label="Go to ${match} definition">${match}</span>`
+        return `<a href="#" class="text-primary font-semibold cursor-pointer" data-term="${match}">${match}</a>`
       })
     })
 
@@ -611,7 +611,9 @@ export function TermList({ searchTerm = "" }: { searchTerm?: string }) {
           key={item.term}
           className="cursor-pointer transition-all hover:shadow-md"
           onClick={() => setExpandedTerm(expandedTerm === item.term ? null : item.term)}
-          ref={(el) => (termRefs.current[item.term] = el)}
+          ref={(el) => {
+            termRefs.current[item.term] = el
+          }}
         >
           <CardHeader>
             <div className="flex items-center justify-between">
@@ -632,22 +634,11 @@ export function TermList({ searchTerm = "" }: { searchTerm?: string }) {
               onClick={(e) => {
                 const target = e.target as HTMLElement
                 if (target.dataset.term) {
+                  e.preventDefault()
                   e.stopPropagation()
                   handleTermClick(target.dataset.term)
                 }
               }}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  const target = e.target as HTMLElement
-                  if (target.dataset.term) {
-                    e.preventDefault()
-                    handleTermClick(target.dataset.term)
-                  }
-                }
-              }}
-              tabIndex={0}
-              role="button"
-              aria-expanded={expandedTerm === item.term}
             />
           </CardContent>
         </Card>
