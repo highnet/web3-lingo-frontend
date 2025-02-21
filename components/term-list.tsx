@@ -587,7 +587,7 @@ export const terms = [
 ]
 
 // Set "new" terms (adjust this list as needed)
-const newTerms = [
+export const newTerms = [
   "Clipping",
   "Top Blast",
   "Stable",
