@@ -560,7 +560,11 @@ const newTerms = [
   "Supporting the Chart"
 ]
 
-export function TermList({ searchTerm = "" }: { searchTerm?: string }) {
+interface TermListProps {
+  searchTerm?: string;
+}
+
+export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
   const [expandedTerm, setExpandedTerm] = useState<string | null>(null)
   const [highlightedTerm, setHighlightedTerm] = useState<string | null>(null)
   const termRefs = useRef<{ [key: string]: HTMLDivElement | null }>({})
