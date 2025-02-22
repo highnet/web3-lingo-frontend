@@ -7,22 +7,33 @@ import { Term } from "./word-of-the-day"
 
 export const terms: Term[] = [
   {
-    term: "Airdrop",
+    term: "adoption",
+    partOfSpeech: "n.",
+    definition:
+      "The process of cryptocurrencies or blockchain technology becoming more widely accepted and used in mainstream applications and society.",
+  },
+  {
+    term: "airdrop",
     partOfSpeech: "n.",
     definition:
       "A distribution of free tokens or coins to a community, often used as a marketing strategy to increase awareness and adoption of a new cryptocurrency project.",
   },
   {
-    term: "Apeing",
-    partOfSpeech: "v.",
+    term: "alpha",
+    partOfSpeech: "n.",
     definition:
-      "The act of investing in a cryptocurrency or project with little to no prior research, often due to FOMO or hype. Derived from the phrase 'aping in'.",
+      "Insider or early information about a cryptocurrency project that could lead to profitable trading opportunities.",
   },
   {
-    term: "Aping In",
-    partOfSpeech: "v. phr.",
+    term: "altcoin",
+    partOfSpeech: "n.",
+    definition: "Any cryptocurrency that is not Bitcoin. Short for 'alternative coin'.",
+  },
+  {
+    term: "ape",
+    partOfSpeech: "v.",
     definition:
-      "The act of investing heavily and quickly into a cryptocurrency or project, often driven by FOMO or strong conviction. Originated from the idea of acting impulsively like an ape.",
+      "The act of investing in a cryptocurrency or project with little to no prior research, often due to FOMO or hype.",
   },
   {
     term: "ATH",
@@ -31,88 +42,73 @@ export const terms: Term[] = [
       "All-Time High. The highest price a cryptocurrency has ever reached since its launch.",
   },
   {
-    term: "Attention",
+    term: "attention",
     partOfSpeech: "n.",
     definition:
-      "Increased interest or focus on a particular token or project, often leading to price movements. Crypto Twitter (CT) typically dictates what gets attention in the market, with influential accounts capable of shifting focus to specific projects.",
+      "Increased interest or focus on a particular token or project, often leading to price movements.",
   },
   {
-    term: "Average Entry",
-    partOfSpeech: "n.",
-    definition:
-      "The average price at which an investor has accumulated their position in a particular cryptocurrency, calculated across multiple buy-ins.",
-  },
-  {
-    term: "Bag",
+    term: "bag",
     partOfSpeech: "n.",
     definition:
       "A significant holding of a particular cryptocurrency. Can be used positively ('nice bag') or negatively ('heavy bag') depending on the investment's performance.",
   },
   {
-    term: "Bagholder",
+    term: "beta",
     partOfSpeech: "n.",
-    definition:
-      "An investor left holding a large amount of a cryptocurrency that has significantly decreased in value, often due to a pump and dump scheme or market crash.",
+    definition: "A measure of volatility or systematic risk compared to the broader market.",
   },
   {
-    term: "Being In",
-    partOfSpeech: "v. phr.",
-    definition:
-      "Crypto slang for having invested in a particular cryptocurrency or project. Often used in phrases like 'Are you in on [project name]?'",
-  },
-  {
-    term: "Beta Play",
-    partOfSpeech: "n.",
-    definition:
-      "A project that attempts to replicate or improve upon an existing successful project. For example, Shiba Inu is considered a beta play of Dogecoin. Beta plays often try to capitalize on the original project's success while adding new features or improvements.",
-  },
-  {
-    term: "Bidding",
+    term: "bid",
     partOfSpeech: "v.",
     definition:
       "The act of placing buy orders for a cryptocurrency, often used in the context of supporting a token's price or participating in a token sale.",
   },
   {
-    term: "Blasting",
+    term: "blast",
     partOfSpeech: "v.",
     definition:
       "A rapid increase in a token's price, similar to 'mooning' but often implying a more aggressive or manipulated price movement.",
   },
   {
-    term: "Bleeding",
+    term: "bleed",
     partOfSpeech: "v.",
     definition:
       "A continuous, gradual decrease in a cryptocurrency's price over time, often used to describe a bear market or a failing project.",
   },
   {
-    term: "Bonding",
+    term: "bond",
     partOfSpeech: "v.",
     definition:
-      "The active process of a token transitioning from its initial distribution phase to being available on a decentralized exchange. When someone says 'it's bonding right now!' or 'it just bonded!', they're referring to the token completing its initial fundraising phase and migrating to open trading on a DEX, where liquidity is established and the token can be freely traded.",
+      "The active process of a token transitioning from its initial distribution phase to being available on a decentralized exchange.",
   },
   {
-    term: "Bonding Curve",
+    term: "bot",
     partOfSpeech: "n.",
     definition:
-      "A mathematical formula that determines token pricing based on supply. As more tokens are purchased, the price increases along a predefined curve. This creates a transparent and fair token distribution mechanism where early buyers pay less, but everyone can participate. The curve typically has a target market cap at which point the token transitions to open market trading.",
+      "An automated program that executes trades or performs other actions in cryptocurrency markets.",
   },
   {
-    term: "Bottom",
+    term: "bottom",
     partOfSpeech: "n.",
     definition:
       "The lowest price point in a cryptocurrency's downward trend, often used when speculating on whether a price decline has ended.",
   },
   {
-    term: "Bottom Signal",
-    partOfSpeech: "n.",
-    definition:
-      "An indicator or event that suggests a cryptocurrency's price has reached its lowest point and may begin to recover.",
+    term: "bridge",
+    partOfSpeech: "v.",
+    definition: "To transfer cryptocurrency assets between different blockchain networks.",
   },
   {
-    term: "Bundle",
-    partOfSpeech: "n.",
+    term: "burn",
+    partOfSpeech: "v.",
     definition:
-      "When multiple wallets are controlled by the same entity but deliberately separated to appear as different traders. Often used to hide large positions or manipulate trading patterns.",
+      "To permanently remove tokens from circulation by sending them to an inaccessible wallet address.",
+  },
+  {
+    term: "buy",
+    partOfSpeech: "v.",
+    definition: "To acquire cryptocurrency using fiat currency or other cryptocurrencies.",
   },
   {
     term: "CA",
@@ -121,52 +117,39 @@ export const terms: Term[] = [
       "Contract Address. The unique identifier for a smart contract on the blockchain, often used to verify or interact with a specific token or project.",
   },
   {
-    term: "Call the Bottom",
-    partOfSpeech: "v. phr.",
-    definition:
-      'To predict the lowest price a cryptocurrency will reach before it starts to recover. Similar to "Call the Top", but for the lowest point.',
+    term: "chart",
+    partOfSpeech: "n.",
+    definition: "A visual representation of price movements and trading activity over time.",
   },
   {
-    term: "Call the Top",
-    partOfSpeech: "v. phr.",
-    definition:
-      "To predict the highest price a cryptocurrency will reach before it starts to decline. Often used retrospectively when someone accurately predicts a price peak.",
-  },
-  {
-    term: "Clipping",
+    term: "clip",
     partOfSpeech: "v.",
     definition:
-      "In crypto trading, 'clipping' refers to taking small, quick profits from price movements, often in newly launched tokens or during initial DEX offerings (IDOs).",
+      "Taking small, quick profits from price movements, often in newly launched tokens or during initial DEX offerings (IDOs).",
   },
   {
-    term: "Comms",
+    term: "comms",
     partOfSpeech: "n.",
     definition:
       "Short for 'communications'. Often used in crypto communities to request project updates or news from the development team.",
   },
   {
-    term: "Cope",
+    term: "contract",
+    partOfSpeech: "n.",
+    definition:
+      "A smart contract deployed on a blockchain that defines the rules and functionality of a token or project.",
+  },
+  {
+    term: "cope",
     partOfSpeech: "v.",
     definition:
       "The act of convincing oneself that a failing investment will eventually turn around. Often used to describe irrational justifications for holding onto losing positions.",
   },
   {
-    term: "Copium",
+    term: "crash",
     partOfSpeech: "n.",
     definition:
-      "A blend of 'cope' and 'opium'. Similar to 'Hopium', it refers to the psychological state of denial or self-delusion when facing investment losses, where investors create elaborate justifications for why their failing investments will eventually succeed.",
-  },
-  {
-    term: "Copy Trading",
-    partOfSpeech: "n.",
-    definition:
-      "A trading strategy where investors automatically copy the trades of more experienced or successful traders, often through specialized platforms or social trading networks.",
-  },
-  {
-    term: "Crash",
-    partOfSpeech: "n.",
-    definition:
-      "A sudden and severe drop in price, more dramatic than a dip or correction. Often accompanied by panic selling and can affect either specific tokens or the entire market.",
+      "A sudden and severe drop in price, more dramatic than a dip or correction. Often accompanied by panic selling.",
   },
   {
     term: "CT",
@@ -175,532 +158,520 @@ export const terms: Term[] = [
       "Crypto Twitter. The community of cryptocurrency enthusiasts, traders, and influencers on Twitter who discuss crypto-related topics.",
   },
   {
-    term: "CTO",
+    term: "dev",
     partOfSpeech: "n.",
     definition:
-      "Community Takeover. Refers to when a cryptocurrency project's community takes control of the project's direction, often after the original team has abandoned it or failed to deliver.",
+      "Short for developer. Refers to the programmers and technical team members working on a cryptocurrency project.",
   },
   {
-    term: "DCAing",
+    term: "domain",
+    partOfSpeech: "n.",
+    definition: "A web address associated with a cryptocurrency project or platform.",
+  },
+  {
+    term: "drain",
     partOfSpeech: "v.",
     definition:
-      "Dollar Cost Averaging. A strategy of investing a fixed amount at regular intervals, regardless of price, to reduce the impact of volatility.",
+      "The unauthorized removal of funds from a wallet or smart contract, often through exploits or hacks.",
   },
   {
-    term: "Degen",
+    term: "dump",
+    partOfSpeech: "v.",
+    definition:
+      "To sell large amounts of a cryptocurrency quickly, often causing the price to drop significantly.",
+  },
+  {
+    term: "dust",
     partOfSpeech: "n.",
     definition:
-      "Short for 'degenerate'. Often used self-referentially or to describe traders who make high-risk, speculative investments with little regard for the potential downsides.",
-  },
-  {
-    term: "Depot",
-    partOfSpeech: "n.",
-    definition:
-      "Short for 'deposit'. Often used in the context of adding funds to a trading account or liquidity pool.",
-  },
-  {
-    term: "Diamond Hands",
-    partOfSpeech: "n.",
-    definition:
-      "Refers to an investor's ability to hold onto their assets despite high risk, market volatility, or significant losses, showing strong conviction in their investment.",
-  },
-  {
-    term: "Doxxed",
-    partOfSpeech: "adj.",
-    definition:
-      "When the real identities of a crypto project's team members are known and verified, often seen as a sign of legitimacy and accountability.",
+      "Tiny amounts of cryptocurrency left in a wallet, often too small to be worth transferring due to transaction fees.",
   },
   {
     term: "DYOR",
-    partOfSpeech: "v. phr.",
+    partOfSpeech: "v.",
     definition:
-      "Do Your Own Research. A common phrase encouraging investors to investigate and understand a project before investing, rather than relying solely on others' opinions or hype.",
+      "Do Your Own Research. A common phrase encouraging investors to investigate and understand a project before investing.",
   },
   {
-    term: "Entry",
+    term: "entry",
     partOfSpeech: "n.",
-    definition:
-      "The price point at which an investor buys into a cryptocurrency or token. 'Good entry' suggests a favorable buying price.",
+    definition: "The price point at which an investor buys into a cryptocurrency or token.",
   },
   {
-    term: "Exit Liquidity",
-    partOfSpeech: "n.",
-    definition:
-      "The buyers that allow early investors or whales to sell their holdings at a profit, often used negatively to describe retail investors in pump and dump schemes.",
-  },
-  {
-    term: "Fade",
+    term: "fade",
     partOfSpeech: "v.",
     definition:
       "To take a trading position opposite to the prevailing market sentiment or a popular trade.",
   },
   {
-    term: "Fake Domain",
+    term: "fee",
     partOfSpeech: "n.",
     definition:
-      "A website that mimics a legitimate crypto project or exchange, created to scam users by stealing their login credentials or funds.",
+      "The cost associated with making transactions or interacting with smart contracts on a blockchain network.",
   },
   {
-    term: "Fake Github",
+    term: "fill",
     partOfSpeech: "n.",
-    definition:
-      "A fraudulent or copied GitHub repository created to make a crypto project appear more legitimate or technically developed than it actually is.",
+    definition: "When a buy or sell order is completed at a specific price.",
   },
   {
-    term: "Fill",
+    term: "flip",
+    partOfSpeech: "v.",
+    definition:
+      "To buy and sell quickly for a profit, or when one cryptocurrency's market cap surpasses another's.",
+  },
+  {
+    term: "flood",
+    partOfSpeech: "v.",
+    definition:
+      "To overwhelm a chat or social media platform with messages about a particular cryptocurrency.",
+  },
+  {
+    term: "floor",
     partOfSpeech: "n.",
-    definition:
-      "When a buy or sell order is completed at a specific price. A 'good fill' means the order was executed at or better than the desired price, while a 'bad fill' means the order was executed at a worse price than intended.",
+    definition: "The lowest price level at which a cryptocurrency typically finds buying support.",
   },
   {
-    term: "Fly",
+    term: "fly",
     partOfSpeech: "v.",
     definition:
       "When a cryptocurrency's price increases rapidly. Similar to 'moon' but often used for shorter-term price movements.",
   },
   {
-    term: "Floor",
-    partOfSpeech: "n.",
-    definition:
-      "The lowest price level at which a cryptocurrency or token typically finds buying support. While commonly used in NFT trading, it applies to any crypto asset where there's a price level that historically resists further downward movement.",
-  },
-  {
     term: "FOMO",
     partOfSpeech: "n.",
     definition:
-      "Fear Of Missing Out. The anxiety that an investor might miss out on a potentially profitable investment opportunity, often leading to hasty decisions.",
+      "Fear Of Missing Out. The anxiety that an investor might miss out on a potentially profitable investment opportunity.",
   },
   {
-    term: "Front Running",
+    term: "foundation",
     partOfSpeech: "n.",
     definition:
-      "An unethical practice where a trader uses advance knowledge of pending orders to place their own orders first, taking advantage of predictable price movements.",
+      "An organization that oversees the development and promotion of a cryptocurrency project.",
   },
   {
     term: "FUD",
     partOfSpeech: "n.",
     definition:
-      "Fear, Uncertainty, and Doubt. Often used to describe negative or misleading information spread in the crypto market to influence investors' decisions negatively.",
+      "Fear, Uncertainty, and Doubt. Often used to describe negative or misleading information spread in the crypto market.",
   },
   {
-    term: "Full Clip",
+    term: "gas",
     partOfSpeech: "n.",
     definition:
-      "When a trader uses their entire available funds for a single trade or investment. Similar to 'fullport' but specifically refers to using all available funds in a single transaction.",
+      "The fee required to successfully conduct a transaction or execute a smart contract on blockchain networks.",
   },
   {
-    term: "Fullport",
-    partOfSpeech: "n.",
+    term: "generational",
+    partOfSpeech: "adj.",
     definition:
-      "Short for 'full portfolio'. Refers to investing all available funds into a single asset or project, a high-risk strategy.",
-  },
-  {
-    term: "Gas",
-    partOfSpeech: "n.",
-    definition:
-      "The fee required to successfully conduct a transaction or execute a smart contract on blockchain networks like Ethereum. Paid in the network's native cryptocurrency.",
-  },
-  {
-    term: "Gen-wealth",
-    partOfSpeech: "n.",
-    definition:
-      "Short for 'Generational Wealth'. Same meaning as 'Generational Wealth' - the idea that crypto investments could create enough wealth to pass down through generations.",
-  },
-  {
-    term: "Getting Liquidated",
-    partOfSpeech: "v. phr.",
-    definition:
-      "When a trader's leveraged position is forcibly closed due to insufficient funds to maintain the position, often resulting in significant losses.",
+      "Relating to or affecting several generations. When used in the context of generational wealth, it refers to wealth substantial enough to benefit not only the current generation but also future generations, creating long-lasting financial stability or legacy.",
   },
   {
     term: "GM",
     partOfSpeech: "interj.",
     definition:
-      "Originally meaning 'good morning', evolved to also mean 'Gonna Make it'. Used as both a greeting and an expression of confidence in future success. Derived from 'GMI' (Gonna Make It).",
+      "Originally meaning 'good morning', evolved to also mean 'Gonna Make it'. Used as both a greeting and an expression of confidence.",
   },
   {
-    term: "Hedge",
-    partOfSpeech: "v.",
-    definition:
-      "A trading strategy where investors take opposing positions to minimize risk. For example, holding both volatile cryptocurrencies and stablecoins, or investing in projects that typically move in opposite directions.",
+    term: "hedge",
+    partOfSpeech: "n.",
+    definition: "A trading strategy where investors take opposing positions to minimize risk.",
   },
   {
     term: "HODL",
     partOfSpeech: "v.",
     definition:
-      "Originally a typo for 'HOLD', now means 'Hold On for Dear Life'. It's a strategy of keeping cryptocurrency long-term, regardless of market fluctuations.",
+      "Hold On for Dear Life. A strategy of keeping cryptocurrency long-term, regardless of market fluctuations.",
   },
   {
-    term: "Holding the Bag",
-    partOfSpeech: "v. phr.",
-    definition:
-      "Similar to 'Bagholder'. Refers to investors left with worthless or significantly devalued tokens after a price crash or rug pull.",
-  },
-  {
-    term: "Hopium",
+    term: "hopium",
     partOfSpeech: "n.",
     definition:
-      "A blend of 'hope' and 'opium'. Refers to the irrational optimism or unfounded hope that a coin's value will increase, despite contrary indicators or lack of fundamental value.",
+      "A blend of 'hope' and 'opium'. Refers to irrational optimism about a coin's potential value increase.",
   },
   {
-    term: "Jeet",
+    term: "jeet",
     partOfSpeech: "n.",
     definition:
-      "Refers to traders who quickly sell their positions, often at the first sign of profit. Similar to 'paper hands' but with a more negative connotation.",
+      "Refers to traders who quickly sell their positions, often at the first sign of profit.",
   },
   {
-    term: "Killing the Chart",
-    partOfSpeech: "v. phr.",
-    definition:
-      "Similar to 'nuking the chart', refers to a severe drop in a token's price, often due to large sell-offs or negative events.",
+    term: "kill",
+    partOfSpeech: "v.",
+    definition: "To cause a severe drop in a token's price, often through large sell-offs.",
   },
   {
     term: "KOL",
     partOfSpeech: "n.",
     definition:
-      "Key Opinion Leader. In the crypto world, KOLs are influential individuals whose opinions can significantly impact market trends, token valuations, and community sentiment.",
+      "Key Opinion Leader. Influential individuals whose opinions can significantly impact market trends.",
   },
   {
     term: "LARP",
     partOfSpeech: "v.",
     definition:
-      "Live Action Role Playing. In crypto, it refers to individuals or projects pretending to be something they're not, often to gain attention or credibility.",
+      "Live Action Role Playing. Refers to individuals or projects pretending to be something they're not.",
   },
   {
-    term: "Ledger",
+    term: "launch",
+    partOfSpeech: "v.",
+    definition: "The initial release of a new cryptocurrency or token to the public.",
+  },
+  {
+    term: "layer",
     partOfSpeech: "n.",
     definition:
-      "A hardware wallet for storing cryptocurrencies offline, providing enhanced security against hacks and theft.",
+      "Refers to different levels of blockchain architecture, such as Layer 1 (base chains) and Layer 2 (scaling solutions).",
   },
   {
-    term: "Lock Supply",
-    partOfSpeech: "v. phr.",
-    definition:
-      "The act of making a portion of a token's supply unavailable for a certain period, often done to create scarcity or build trust with investors.",
-  },
-  {
-    term: "Lore",
+    term: "ledger",
     partOfSpeech: "n.",
     definition:
-      "The backstory, history, or accumulated knowledge about a particular cryptocurrency project or event in the crypto space.",
+      "A hardware wallet for storing cryptocurrencies offline, or the record of all transactions on a blockchain.",
+  },
+  {
+    term: "liquidate",
+    partOfSpeech: "v.",
+    definition: "To forcibly close a leveraged trading position due to insufficient funds.",
+  },
+  {
+    term: "lock",
+    partOfSpeech: "v.",
+    definition:
+      "To restrict access to tokens for a specific period, often used in vesting schedules.",
+  },
+  {
+    term: "lore",
+    partOfSpeech: "n.",
+    definition:
+      "The backstory, history, or accumulated knowledge about a particular cryptocurrency project.",
   },
   {
     term: "LP",
     partOfSpeech: "n.",
     definition:
-      "Liquidity Pool. A collection of funds locked in a smart contract that enables trading by providing liquidity for token pairs on decentralized exchanges. When tokens migrate from their initial distribution phase, a portion of the raised capital is typically used to establish these pools, with the LP tokens often burned to ensure permanent liquidity.",
+      "Liquidity Pool. A collection of funds locked in a smart contract that enables trading on decentralized exchanges.",
+  },
+  {
+    term: "market",
+    partOfSpeech: "n.",
+    definition: "The overall cryptocurrency trading environment or a specific trading pair.",
   },
   {
     term: "MCAP",
     partOfSpeech: "n.",
     definition:
-      "Short for Market Capitalization. The total value of a cryptocurrency, calculated by multiplying the current price by the circulating supply.",
+      "Market Capitalization. The total value of a cryptocurrency, calculated by multiplying price by circulating supply.",
   },
   {
-    term: "Meta",
+    term: "meta",
     partOfSpeech: "n.",
-    definition:
-      "Refers to the current trends or strategies that are considered most effective in the crypto market. The 'meta' can change rapidly based on market conditions.",
+    definition: "The current trends or strategies considered most effective in the crypto market.",
   },
   {
-    term: "Mid",
+    term: "mid",
     partOfSpeech: "adj.",
     definition:
       "Short for 'mediocre'. Used to describe a cryptocurrency or project that is considered average or unremarkable.",
   },
   {
-    term: "Migrate",
+    term: "migrate",
     partOfSpeech: "v.",
     definition:
-      "The process of moving a token to a decentralized exchange after reaching a target market capitalization. During migration, a portion of the token's value is used to create a trading pair, establishing permanent liquidity and enabling wider trading access. This transition marks the end of the initial bonding curve phase and the beginning of free market trading.",
+      "The process of moving tokens or contracts from one blockchain or platform to another.",
   },
   {
-    term: "Moon",
+    term: "moon",
     partOfSpeech: "v.",
-    definition:
-      "When a cryptocurrency's price rises dramatically in a short period. 'To the moon!' expresses hope for extremely high returns.",
+    definition: "When a cryptocurrency's price rises dramatically in a short period.",
   },
   {
-    term: "Moon or Dust",
-    partOfSpeech: "phr.",
-    definition:
-      "A high-risk, high-reward investment strategy where the expectation is either significant gains ('moon') or complete loss ('dust').",
-  },
-  {
-    term: "Normies",
-    partOfSpeech: "n.",
-    definition:
-      "A term used by crypto enthusiasts to refer to people not involved or interested in cryptocurrencies or blockchain technology.",
-  },
-  {
-    term: "Nuking the Chart",
-    partOfSpeech: "v. phr.",
-    definition:
-      "A rapid and significant drop in a token's price, often due to large sell orders or negative news.",
+    term: "nuke",
+    partOfSpeech: "v.",
+    definition: "A rapid and significant drop in a token's price, often due to large sell orders.",
   },
   {
     term: "OG",
     partOfSpeech: "n.",
     definition:
-      "Original Gangster. In crypto, refers to early adopters or long-time participants in the cryptocurrency space or a specific project.",
+      "Original Gangster. Refers to early adopters or long-time participants in the cryptocurrency space.",
   },
   {
-    term: "Paper Hands",
+    term: "paper",
+    partOfSpeech: "adj.",
+    definition: "Describing traders who sell quickly at the first sign of trouble or small profit.",
+  },
+  {
+    term: "pay",
+    partOfSpeech: "v.",
+    definition: "When an investment provides good returns or 'pays out' well.",
+  },
+  {
+    term: "pick",
     partOfSpeech: "n.",
     definition:
-      "The opposite of 'Diamond Hands'. Describes investors who sell their holdings quickly at the first sign of trouble or a small amount of profit, lacking conviction in their investments.",
+      "A cryptocurrency chosen for investment, often based on analysis or recommendation.",
   },
   {
-    term: "Pay Dex",
-    partOfSpeech: "v. phr.",
-    definition:
-      "Paying fees to a decentralized exchange (DEX) for trading. Can also refer to the practice of projects paying for DEX listings.",
-  },
-  {
-    term: "Paying",
-    partOfSpeech: "v.",
-    definition:
-      "In crypto slang, refers to a token or investment that is providing good returns or 'paying out' well. For example, 'This yield farm is really paying right now.'",
+    term: "play",
+    partOfSpeech: "n.",
+    definition: "A specific investment strategy or opportunity in the cryptocurrency market.",
   },
   {
     term: "PNL",
     partOfSpeech: "n.",
     definition:
-      "Profit and Loss. A term used to describe the financial performance of a trade or investment over a specific period.",
+      "Profit and Loss. The financial performance of a trade or investment over a specific period.",
   },
   {
-    term: "Printing",
+    term: "port",
+    partOfSpeech: "n.",
+    definition:
+      "Short for portfolio. The collection of cryptocurrency investments held by an individual.",
+  },
+  {
+    term: "presale",
+    partOfSpeech: "n.",
+    definition: "A token sale that occurs before the official public launch.",
+  },
+  {
+    term: "print",
+    partOfSpeech: "v.",
+    definition: "When a cryptocurrency investment is generating significant profits consistently.",
+  },
+  {
+    term: "priority",
+    partOfSpeech: "n.",
+    definition: "Higher gas fees paid to ensure faster transaction processing.",
+  },
+  {
+    term: "pump",
+    partOfSpeech: "v.",
+    definition: "A rapid increase in price, often due to coordinated buying or positive news.",
+  },
+  {
+    term: "reset",
     partOfSpeech: "v.",
     definition:
-      "When a cryptocurrency investment is generating significant profits consistently, as if 'printing money'. Often used in phrases like 'this token is printing' or 'it's a printer' to indicate highly profitable trades or investments.",
+      "A significant price correction that brings a token's value back to a previous level.",
   },
   {
-    term: "Pump and Dump",
+    term: "revive",
+    partOfSpeech: "v.",
+    definition: "When a seemingly dead project shows signs of life and renewed activity.",
+  },
+  {
+    term: "rigged",
+    partOfSpeech: "adj.",
+    definition: "Describing a market or trading situation believed to be manipulated.",
+  },
+  {
+    term: "rip",
+    partOfSpeech: "v.",
+    definition: "Describes aggressive price movement, either upward or downward.",
+  },
+  {
+    term: "rug",
     partOfSpeech: "n.",
     definition:
-      "A scheme where a group artificially inflates the price of a cryptocurrency (pump) through misleading statements, then sells off their holdings (dump), causing the price to crash.",
+      "Short for 'rug pull', when developers abandon a project and take investors' funds.",
   },
   {
-    term: "PVE",
+    term: "run",
+    partOfSpeech: "v.",
+    definition: "A sustained period of price increase or positive momentum.",
+  },
+  {
+    term: "scan",
+    partOfSpeech: "v.",
+    definition: "To examine blockchain transactions or monitor market activity for opportunities.",
+  },
+  {
+    term: "scanner",
     partOfSpeech: "n.",
-    definition:
-      "Player Versus Environment. In crypto, refers to insider traders cooperating to promote tokens to retail investors ('normies'). Different from its gaming origin of player versus environment.",
+    definition: "A tool used to monitor blockchain transactions and token movements.",
   },
   {
-    term: "PVP",
-    partOfSpeech: "n.",
-    definition:
-      "Player Versus Player. In crypto, refers to insider traders competing against each other for profits, often in zero-sum trading situations.",
+    term: "sell",
+    partOfSpeech: "v.",
+    definition: "To exchange cryptocurrency for fiat currency or other cryptocurrencies.",
   },
   {
-    term: "Redepot",
+    term: "send",
     partOfSpeech: "v.",
     definition:
-      "To deposit additional funds after experiencing significant losses, usually in an attempt to recover previous losses. Often seen as a risky behavior associated with gambling mentality.",
+      "To transfer cryptocurrency from one wallet to another, or express enthusiasm about a project.",
   },
   {
-    term: "Rekt",
+    term: "shill",
+    partOfSpeech: "v.",
+    definition: "To promote a cryptocurrency project, often aggressively or with bias.",
+  },
+  {
+    term: "shitcoin",
+    partOfSpeech: "n.",
+    definition:
+      "A derogatory term for cryptocurrencies perceived to have little to no value or purpose.",
+  },
+  {
+    term: "signal",
+    partOfSpeech: "n.",
+    definition: "An indicator suggesting a potential trading opportunity.",
+  },
+  {
+    term: "sink",
+    partOfSpeech: "v.",
+    definition: "When a cryptocurrency's price drops significantly.",
+  },
+  {
+    term: "sit",
+    partOfSpeech: "v.",
+    definition:
+      "To hold a position without taking action, often during uncertain market conditions.",
+  },
+  {
+    term: "sleep",
+    partOfSpeech: "v.",
+    definition: "To miss or ignore a potentially profitable opportunity.",
+  },
+  {
+    term: "slippage",
+    partOfSpeech: "n.",
+    definition: "The difference between expected and actual price execution in a trade.",
+  },
+  {
+    term: "slow",
+    partOfSpeech: "adj.",
+    definition: "Describing gradual price movement or network transaction speeds.",
+  },
+  {
+    term: "snipe",
+    partOfSpeech: "v.",
+    definition: "To quickly buy a token right at launch or at a specific price.",
+  },
+  {
+    term: "spread",
+    partOfSpeech: "n.",
+    definition: "The difference between the highest bid and lowest ask price for a cryptocurrency.",
+  },
+  {
+    term: "stable",
+    partOfSpeech: "v.",
+    definition:
+      "To convert volatile crypto assets into stablecoins to secure profits or reduce risk.",
+  },
+  {
+    term: "stake",
+    partOfSpeech: "v.",
+    definition:
+      "To lock up cryptocurrency holdings to earn rewards or participate in network validation.",
+  },
+  {
+    term: "strategy",
+    partOfSpeech: "n.",
+    definition: "A planned approach to cryptocurrency trading or investing.",
+  },
+  {
+    term: "supply",
+    partOfSpeech: "n.",
+    definition: "The total number of tokens or coins available or in circulation.",
+  },
+  {
+    term: "support",
+    partOfSpeech: "v.",
+    definition: "A price level where buying pressure typically prevents further price decline.",
+  },
+  {
+    term: "sus",
     partOfSpeech: "adj.",
     definition:
-      "Slang for 'wrecked'. Used when someone has suffered significant financial losses in trading or investing, often due to liquidation in leveraged trades.",
+      "Short for 'suspicious'. Used to describe potentially fraudulent or questionable behavior.",
   },
   {
-    term: "Reset",
+    term: "take",
+    partOfSpeech: "v.",
+    definition: "To realize profits by selling a cryptocurrency position.",
+  },
+  {
+    term: "telegram",
     partOfSpeech: "n.",
-    definition:
-      "In crypto trading, refers to a significant price correction that brings a token's value back to a previous, often lower, level.",
+    definition: "A messaging platform widely used in the crypto community.",
   },
   {
-    term: "Ripping",
-    partOfSpeech: "v.",
-    definition:
-      "Describes aggressive price movement, either upward or downward. Often used with directional indicators like 'ripping up' or 'ripping down' to specify the movement.",
-  },
-  {
-    term: "Round Tripping",
-    partOfSpeech: "v. phr.",
-    definition:
-      "When a token's price returns to your entry point after significant movement up or down, causing emotional stress from the temporary gains or losses experienced during the price action.",
-  },
-  {
-    term: "Rug Pull",
+    term: "terminal",
     partOfSpeech: "n.",
-    definition:
-      "A type of exit scam where crypto developers abandon a project and run away with investors' funds, often after pumping the price.",
-  },
-  {
-    term: "Running With It",
-    partOfSpeech: "v. phr.",
-    definition:
-      "When investors or traders capitalize on positive momentum, often referring to a community's response to good news or a price increase.",
-  },
-  {
-    term: "Scanning",
-    partOfSpeech: "v.",
-    definition:
-      "The act of continuously monitoring blockchain transactions, token prices, or social media for potential trading opportunities, market movements, or security threats.",
-  },
-  {
-    term: "Sell Your Initials",
-    partOfSpeech: "v. phr.",
-    definition:
-      "A strategy where an investor sells a portion of their investment equal to their initial investment, allowing them to play with 'house money'.",
-  },
-  {
-    term: "Selling on Us",
-    partOfSpeech: "v. phr.",
-    definition:
-      "When a trader or investor sells their holdings, potentially causing the price to drop for other investors. Often used in community chats to express disappointment in those who sell.",
-  },
-  {
-    term: "Sending",
-    partOfSpeech: "v.",
-    definition:
-      "The act of initiating a cryptocurrency transaction. Can also be used to express agreement or enthusiasm, similar to 'Aping in'.",
-  },
-  {
-    term: "Shill",
-    partOfSpeech: "v.",
-    definition:
-      "To promote a cryptocurrency project, often aggressively or with bias, typically for personal gain. This can be done by project team members or paid promoters.",
-  },
-  {
-    term: "Shitcoin",
-    partOfSpeech: "n.",
-    definition:
-      "A derogatory term for cryptocurrencies perceived to have little to no value or no immediate, discernible purpose. Often used for coins with no clear use case or innovative features.",
-  },
-  {
-    term: "Side Wallet",
-    partOfSpeech: "n.",
-    definition:
-      "A separate cryptocurrency wallet used for specific purposes, often to keep certain investments or activities separate from one's main holdings.",
-  },
-  {
-    term: "Sink",
-    partOfSpeech: "v.",
-    definition:
-      "When a cryptocurrency's price drops significantly. Often used to describe rapid, unexpected price decreases.",
-  },
-  {
-    term: "Sitting on My Hands",
-    partOfSpeech: "v. phr.",
-    definition:
-      "A trading strategy where one deliberately avoids making any trades during uncertain market conditions.",
-  },
-  {
-    term: "Sleep On It",
-    partOfSpeech: "v. phr.",
-    definition:
-      "To miss or ignore a potentially profitable opportunity, often realized in hindsight. Used to express regret for not participating in a successful trade or investment.",
-  },
-  {
-    term: "Slow Pick",
-    partOfSpeech: "n.",
-    definition:
-      "A cryptocurrency that gains value gradually over time, as opposed to a pump and dump or quick moon shot.",
-  },
-  {
-    term: "Snipe",
-    partOfSpeech: "v.",
-    definition:
-      "The act of quickly buying a token right at launch or when it reaches a specific price, often aided by trading bots or scripts.",
-  },
-  {
-    term: "Spread",
-    partOfSpeech: "n.",
-    definition:
-      "The difference between the highest bid and lowest ask price for a cryptocurrency on an exchange.",
-  },
-  {
-    term: "Stable",
-    partOfSpeech: "v.",
-    definition:
-      "The act of converting volatile crypto assets into stablecoins to secure profits or reduce risk. Also refers to stablecoins themselves, which are cryptocurrencies designed to maintain a stable value.",
-  },
-  {
-    term: "Supporting the Chart",
-    partOfSpeech: "v. phr.",
-    definition:
-      "When investors buy a token to prevent its price from falling further. Can happen intentionally through coordinated buying or unintentionally when multiple traders independently decide to buy at similar price levels.",
-  },
-  {
-    term: "Sus",
-    partOfSpeech: "adj.",
-    definition:
-      "Short for 'suspicious'. Used to describe potentially fraudulent or questionable behavior in crypto projects, trades, or team activities.",
-  },
-  {
-    term: "Taking P",
-    partOfSpeech: "v. phr.",
-    definition:
-      "Short for 'taking profit'. The act of selling some or all of one's cryptocurrency holdings to realize gains.",
+    definition: "A platform or interface for executing trades and monitoring market data.",
   },
   {
     term: "TG",
     partOfSpeech: "n.",
-    definition:
-      "Short for Telegram. A popular messaging app widely used in the crypto community for project updates, discussions, and trading groups.",
+    definition: "Short for Telegram, a messaging app used in the crypto community.",
   },
   {
-    term: "Top",
+    term: "tip",
     partOfSpeech: "n.",
-    definition:
-      "The highest price point in a cryptocurrency's upward trend, often used when speculating on whether a price increase has peaked.",
+    definition: "Information or advice about potential trading opportunities.",
   },
   {
-    term: "Top Blast",
-    partOfSpeech: "v. phr.",
-    definition:
-      "To buy at the top of a price movement, often resulting in immediate losses as the price corrects. It's the opposite of buying the dip.",
-  },
-  {
-    term: "Top Holder",
+    term: "token",
     partOfSpeech: "n.",
-    definition:
-      "An individual or entity that owns a large portion of a particular token's supply, often viewed with a mix of respect and suspicion by the community.",
+    definition: "A unit of cryptocurrency, typically built on an existing blockchain.",
   },
   {
-    term: "Top Signal",
+    term: "top",
     partOfSpeech: "n.",
-    definition:
-      "An indicator or event that suggests a cryptocurrency's price has reached its peak and may begin to decline.",
+    definition: "The highest price point in a cryptocurrency's upward trend.",
   },
   {
-    term: "VC",
+    term: "TPS",
     partOfSpeech: "n.",
-    definition:
-      "Voice communications, typically through Discord or Telegram, where traders share real-time information and coordinate trading strategies. Often abbreviated as 'VC'.",
+    definition: "Transactions Per Second, a measure of blockchain network speed.",
   },
   {
-    term: "Volume",
+    term: "tracker",
     partOfSpeech: "n.",
-    definition:
-      "The total amount of a cryptocurrency traded within a specific time frame, often used as an indicator of market activity and liquidity.",
+    definition: "A tool for monitoring cryptocurrency prices, portfolios, or transactions.",
+  },
+  {
+    term: "twitter",
+    partOfSpeech: "n.",
+    definition: "A social media platform crucial for cryptocurrency news and discussion.",
+  },
+  {
+    term: "vc",
+    partOfSpeech: "n.",
+    definition: "Voice communications or Venture Capital, depending on context.",
+  },
+  {
+    term: "volume",
+    partOfSpeech: "n.",
+    definition: "The total amount of a cryptocurrency traded within a specific time frame.",
   },
   {
     term: "WAGMI",
-    partOfSpeech: "phr.",
-    definition:
-      "Acronym for 'we're all gonna make it'. An expression of optimism and community solidarity in crypto markets.",
+    partOfSpeech: "interj.",
+    definition: "We're All Gonna Make It. An expression of optimism in crypto markets.",
   },
   {
-    term: "Weak Hands",
+    term: "wallet",
     partOfSpeech: "n.",
-    definition:
-      "Similar to 'Paper Hands'. Refers to investors who are quick to sell their holdings during market downturns or at the first sign of trouble, often due to lack of confidence or research.",
+    definition: "A software or hardware tool for storing and managing cryptocurrencies.",
   },
   {
-    term: "Whale",
+    term: "weak",
+    partOfSpeech: "adj.",
+    definition: "Describing price action showing lack of buying support or momentum.",
+  },
+  {
+    term: "whale",
     partOfSpeech: "n.",
-    definition:
-      "An individual or entity holding a large amount of a particular cryptocurrency, capable of influencing market prices through large buy or sell orders.",
+    definition: "An individual or entity holding a large amount of a particular cryptocurrency.",
   },
   {
-    term: "Work for Your Bags",
-    partOfSpeech: "v. phr.",
-    definition:
-      "The idea that investors should actively contribute to or promote the projects they've invested in to increase the value of their holdings.",
+    term: "work",
+    partOfSpeech: "v.",
+    definition: "To actively contribute to or promote projects one has invested in.",
   },
 ]
 
