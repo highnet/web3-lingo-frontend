@@ -7,8 +7,10 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Crypto Lingo",
-  description: "Common terminology for web3 and crypto trading",
+  title: "Chainopedia - Your Go-To Dictionary for Web3 & Crypto Slang",
+  description:
+    "Explore the colorful and often confusing world of cryptocurrency jargon with Chainopedia. Your ultimate resource for Web3 and crypto slang.",
+  keywords: "Chainopedia, Web3, Crypto, Slang, Dictionary, Cryptocurrency, Jargon",
   generator: "v0.dev",
 }
 

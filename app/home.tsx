@@ -12,8 +12,8 @@ const FADE_DURATION = 500 // Time in milliseconds for fade effect
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("")
-  const [currentWord1, setCurrentWord1] = useState("HODLing")
-  const [currentWord2, setCurrentWord2] = useState("Top Blasts")
+  const [currentWord1, setCurrentWord1] = useState("HODL")
+  const [currentWord2, setCurrentWord2] = useState("KOL")
   const [isTransitioning1, setIsTransitioning1] = useState(false)
   const [isTransitioning2, setIsTransitioning2] = useState(false)
 
@@ -60,6 +60,28 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <head>
+        <title>Chainopedia - Your Go-To Dictionary for Web3 & Crypto Slang</title>
+        <meta
+          name="description"
+          content="Explore the colorful and often confusing world of cryptocurrency jargon with Chainopedia. Your ultimate resource for Web3 and crypto slang."
+        />
+        <meta
+          name="keywords"
+          content="Chainopedia, Web3, Crypto, Slang, Dictionary, Cryptocurrency, Jargon"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.chainopedia.com/" />
+        <meta
+          property="og:title"
+          content="Chainopedia - Your Go-To Dictionary for Web3 & Crypto Slang"
+        />
+        <meta
+          property="og:description"
+          content="Explore the colorful and often confusing world of cryptocurrency jargon with Chainopedia."
+        />
+        <meta property="og:url" content="https://www.chainopedia.com/" />
+      </head>
       <header className="border-b">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
           <h1 className="text-2xl font-bold">Chainopedia</h1>
