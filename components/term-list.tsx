@@ -914,12 +914,6 @@ export const terms: Term[] = [
       "To decide or signal the purchase of an asset, often based on analysis or intuition, essentially making an investment move.",
   },
   {
-    term: "hold",
-    partOfSpeech: "v.",
-    definition:
-      "To keep an asset in one's portfolio over time rather than selling, typically reflecting a long-term investment approach.",
-  },
-  {
     term: "redepot",
     partOfSpeech: "v.",
     definition:
