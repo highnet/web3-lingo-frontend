@@ -21,8 +21,8 @@ export async function getStaticPaths() {
   return { paths, fallback: false } // Set fallback to false for 404 on unmatched routes
 }
 
-export async function getStaticProps({ params }) {
-  const termData = terms[params.term] || null // Fetch term data based on the URL
+export async function getStaticProps({ params }: { params: { term: string } }) {
+  const termData = terms.find((t) => t.term.toLowerCase() === params.term.toLowerCase()) || null
 
   return {
     props: {
