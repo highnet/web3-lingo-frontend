@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import Link from "next/link"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -23,7 +25,22 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          {children}
+          <header className="border-b">
+            <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+              <Link href="/" className="text-2xl font-bold">
+                Chainopedia
+              </Link>
+              <ThemeToggle />
+            </div>
+          </header>
+
+          <main className="container mx-auto px-4 py-8">{children}</main>
+
+          <footer className="border-t mt-12">
+            <div className="container mx-auto px-4 py-6 text-center text-sm text-muted-foreground">
+              © {new Date().getFullYear()} Chainopedia. All rights reserved.
+            </div>
+          </footer>
         </ThemeProvider>
       </body>
     </html>
