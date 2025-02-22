@@ -1,6 +1,7 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
+import { useRef } from "react"
+import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { terms, newTerms } from "@/lib/terms"
@@ -10,8 +11,6 @@ interface TermListProps {
 }
 
 export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
-  const [expandedTerm, setExpandedTerm] = useState<string | null>(null)
-  const [highlightedTerm, setHighlightedTerm] = useState<string | null>(null)
   const termRefs = useRef<{ [key: string]: HTMLDivElement | null }>({})
 
   // Sort terms alphabetically
@@ -37,74 +36,56 @@ export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
         })
     : sortedTerms
 
-  useEffect(() => {
-    if (highlightedTerm) {
-      const element = termRefs.current[highlightedTerm]
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth", block: "center" })
-        setHighlightedTerm(null)
-      }
-    }
-  }, [highlightedTerm])
+  const renderDefinition = (definition: string) => {
+    const sortedTerms = [...terms].sort((a, b) => b.term.length - a.term.length)
+    const termRegex = new RegExp(`\\b(${sortedTerms.map((t) => t.term).join("|")})\\b`, "gi")
 
-  const highlightReferencedTerms = (definition: string) => {
-    let highlightedDefinition = definition
-
-    sortedTerms.forEach((term) => {
-      const regex = new RegExp(`\\b${term.term}\\b`, "gi")
-      highlightedDefinition = highlightedDefinition.replace(regex, (match) => {
-        return `<a href="#" class="text-primary font-semibold cursor-pointer" data-term="${match}">${match}</a>`
-      })
+    return definition.split(termRegex).map((part, index) => {
+      const term = sortedTerms.find((t) => t.term === part)
+      return term ? (
+        <Link
+          key={index}
+          href={`/terms/${term.term}`}
+          className="text-primary font-semibold hover:underline"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {part}
+        </Link>
+      ) : (
+        <span key={index}>{part}</span>
+      )
     })
-
-    return highlightedDefinition
-  }
-
-  const handleTermClick = (term: string) => {
-    setHighlightedTerm(term)
   }
 
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
       {filteredTerms.map((item) => (
-        <Card
+        <Link
           key={item.term}
-          className="cursor-pointer transition-all hover:shadow-md"
-          onClick={() => setExpandedTerm(expandedTerm === item.term ? null : item.term)}
-          ref={(el) => {
-            termRefs.current[item.term] = el
-          }}
+          href={`/terms/${item.term}`}
+          className="hover:shadow-md transition-shadow"
         >
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <CardTitle>{item.term}</CardTitle>
-                <span className="text-sm text-muted-foreground italic">{item.partOfSpeech}</span>
+          <Card className="h-full">
+            <CardHeader>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <CardTitle className="hover:underline">{item.term}</CardTitle>
+                  <span className="text-sm text-muted-foreground italic">{item.partOfSpeech}</span>
+                </div>
+                {newTerms.includes(item.term) && (
+                  <Badge variant="secondary" className="ml-2">
+                    New
+                  </Badge>
+                )}
               </div>
-              {newTerms.includes(item.term) && (
-                <Badge variant="secondary" className="ml-2">
-                  New
-                </Badge>
-              )}
-            </div>
-          </CardHeader>
-          <CardContent>
-            <CardDescription
-              className={expandedTerm === item.term ? "" : "line-clamp-2"}
-              dangerouslySetInnerHTML={{
-                __html: highlightReferencedTerms(item.definition),
-              }}
-              onClick={(e) => {
-                const target = e.target as HTMLElement
-                if (target.dataset.term) {
-                  e.preventDefault()
-                  e.stopPropagation()
-                  handleTermClick(target.dataset.term)
-                }
-              }}
-            />
-          </CardContent>
-        </Card>
+            </CardHeader>
+            <CardContent>
+              <CardDescription className="line-clamp-3">
+                {renderDefinition(item.definition)}
+              </CardDescription>
+            </CardContent>
+          </Card>
+        </Link>
       ))}
     </div>
   )
