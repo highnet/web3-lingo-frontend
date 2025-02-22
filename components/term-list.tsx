@@ -639,7 +639,7 @@ export const terms: Term[] = [
     definition: "A social media platform crucial for cryptocurrency news and discussion.",
   },
   {
-    term: "vc",
+    term: "VC",
     partOfSpeech: "n.",
     definition: "Voice communications or Venture Capital, depending on context.",
   },
