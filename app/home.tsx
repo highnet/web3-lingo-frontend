@@ -19,8 +19,8 @@ export default function Home() {
 
   useEffect(() => {
     // Set initial words only on the client side
-    setCurrentWord1("HODLing")
-    setCurrentWord2("Top Blasts")
+    setCurrentWord1("HODL")
+    setCurrentWord2("KOL")
   }, [])
 
   useEffect(() => {
