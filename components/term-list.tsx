@@ -673,6 +673,288 @@ export const terms: Term[] = [
     partOfSpeech: "v.",
     definition: "To actively contribute to or promote projects one has invested in.",
   },
+  {
+    term: "centralized",
+    partOfSpeech: "adj.",
+    definition:
+      "Describes a system, exchange, or process controlled by a single authority, where decision-making and operations are managed centrally.",
+  },
+  {
+    term: "decentralized",
+    partOfSpeech: "adj.",
+    definition:
+      "Refers to systems or networks where control and decision-making are distributed across multiple participants, reducing reliance on a single authority.",
+  },
+  {
+    term: "diamond",
+    partOfSpeech: "adj.",
+    definition:
+      "In crypto slang, used to describe investors with 'diamond hands' who hold assets firmly through market volatility without selling.",
+  },
+  {
+    term: "double",
+    partOfSpeech: "adj.",
+    definition:
+      "Describes chart patterns like 'double top' or 'double bottom,' indicating that price levels were tested twice, often signaling potential reversals.",
+  },
+  {
+    term: "doxxed",
+    partOfSpeech: "adj.",
+    definition:
+      "Indicates that an individual's personal or private information has been publicly exposed, often through investigative or malicious actions.",
+  },
+  {
+    term: "hacked",
+    partOfSpeech: "adj.",
+    definition:
+      "Refers to a system or account that has been compromised by unauthorized access, leading to security breaches or loss of funds.",
+  },
+  {
+    term: "rekt",
+    partOfSpeech: "adj.",
+    definition:
+      "Slang used to describe someone who has suffered significant financial losses or been 'destroyed' in a trade or market event.",
+  },
+  {
+    term: "CEX",
+    partOfSpeech: "n.",
+    definition:
+      "Short for Centralized Exchange, a cryptocurrency trading platform operated by a single organization that manages user funds and transactions.",
+  },
+  {
+    term: "DEX",
+    partOfSpeech: "n.",
+    definition:
+      "Abbreviation for Decentralized Exchange, a platform that facilitates peer-to-peer cryptocurrency trading without a central authority.",
+  },
+  {
+    term: "exit",
+    partOfSpeech: "n.",
+    definition:
+      "In the context of exit liquidity, it refers to the available funds or buyers that allow an investor to sell their position and exit the market.",
+  },
+  {
+    term: "hold",
+    partOfSpeech: "v.",
+    definition:
+      "To retain ownership of an asset over time, rather than selling it, often as part of a long-term investment strategy.",
+  },
+  {
+    term: "bonding-curve",
+    partOfSpeech: "n.",
+    definition:
+      "A mathematical curve defining the relationship between a token's price and its supply, used in token economics to manage issuance and pricing.",
+  },
+  {
+    term: "bubble-map",
+    partOfSpeech: "n.",
+    definition:
+      "A visual chart where bubbles represent different cryptocurrencies, often sized by market capitalization or other key metrics.",
+  },
+  {
+    term: "bundle",
+    partOfSpeech: "n.",
+    definition:
+      "A collection or package of assets or tokens grouped together, typically offered for investment or sale as a single unit.",
+  },
+  {
+    term: "cabal",
+    partOfSpeech: "n.",
+    definition:
+      "Refers to a small, secretive group of influential individuals within the crypto community, often suspected of coordinating market moves.",
+  },
+  {
+    term: "candle",
+    partOfSpeech: "n.",
+    definition:
+      "A single candlestick on a price chart that represents the open, close, high, and low prices of an asset over a specific time period.",
+  },
+  {
+    term: "chain",
+    partOfSpeech: "n.",
+    definition:
+      "Short for blockchain, a decentralized ledger that records transactions across a distributed network of computers.",
+  },
+  {
+    term: "coin",
+    partOfSpeech: "n.",
+    definition:
+      "A cryptocurrency that typically operates on its own blockchain, serving as a medium of exchange, store of value, or unit of account.",
+  },
+  {
+    term: "copium",
+    partOfSpeech: "n.",
+    definition:
+      "A portmanteau of 'cope' and 'opium,' used humorously to describe the mental solace investors seek to deal with losses or market downturns.",
+  },
+  {
+    term: "copy-trading",
+    partOfSpeech: "n.",
+    definition:
+      "The practice of automatically replicating the trades of experienced or successful traders through dedicated platforms or services.",
+  },
+  {
+    term: "cross-chain",
+    partOfSpeech: "n.",
+    definition:
+      "Describes protocols or operations that enable the transfer of assets or data between different blockchain networks to enhance interoperability.",
+  },
+  {
+    term: "CTO",
+    partOfSpeech: "n.",
+    definition:
+      "Stands for Community Takeover, referring to scenarios where a decentralized community assumes control or direction of a project in the absence of strong centralized leadership.",
+  },
+  {
+    term: "dashboard",
+    partOfSpeech: "n.",
+    definition:
+      "A graphical interface that displays real-time data and analytics related to trading activities, portfolio performance, or market trends.",
+  },
+  {
+    term: "fullport",
+    partOfSpeech: "n.",
+    definition:
+      "A slang term for an investor’s entire portfolio of assets, often used to discuss overall exposure in the crypto market.",
+  },
+  {
+    term: "gen-wealth",
+    partOfSpeech: "n.",
+    definition:
+      "Short for generational wealth, referring to the long-term accumulation of wealth that can be passed down through generations, often through smart investments.",
+  },
+  {
+    term: "github",
+    partOfSpeech: "n.",
+    definition:
+      "A web-based platform for version control and collaborative software development, widely used by crypto projects to host and share open-source code.",
+  },
+  {
+    term: "hands",
+    partOfSpeech: "n.",
+    definition:
+      "Refers to an investor’s resolve in holding assets; 'diamond hands' indicate strong conviction, while 'paper hands' imply a tendency to sell under pressure.",
+  },
+  {
+    term: "house-money",
+    partOfSpeech: "n.",
+    definition:
+      "Funds viewed as less risky because they originate from trading profits rather than the investor’s original capital.",
+  },
+  {
+    term: "memecoin",
+    partOfSpeech: "n.",
+    definition:
+      "A cryptocurrency that gains popularity primarily through internet memes and community hype rather than through technological innovation or utility.",
+  },
+  {
+    term: "MEV",
+    partOfSpeech: "n.",
+    definition:
+      "Stands for Maximum Extractable Value, referring to the potential profit miners or validators can extract by optimally ordering transactions in a block.",
+  },
+  {
+    term: "normie",
+    partOfSpeech: "n.",
+    definition:
+      "A slang term for someone who is not deeply involved in crypto culture, often considered mainstream and lacking insider knowledge.",
+  },
+  {
+    term: "P",
+    partOfSpeech: "n.",
+    definition:
+      "Slang for profit, representing the earnings or gains achieved through trading or investments.",
+  },
+  {
+    term: "player",
+    partOfSpeech: "n.",
+    definition:
+      "An active investor or trader in the crypto space, typically one who is engaged and experienced in market operations.",
+  },
+  {
+    term: "PVE",
+    partOfSpeech: "n.",
+    definition:
+      "A term highlighting the dynamic between insiders and everyday investors (normies) in the crypto market, emphasizing disparities in access and strategy.",
+  },
+  {
+    term: "PVP",
+    partOfSpeech: "n.",
+    definition:
+      "Refers to competitive interactions among insiders in the crypto community, where experienced traders or stakeholders vie against one another.",
+  },
+  {
+    term: "TRADFI",
+    partOfSpeech: "n.",
+    definition:
+      "An abbreviation for Traditional Finance, denoting conventional financial systems and institutions as contrasted with decentralized or crypto-based alternatives.",
+  },
+  {
+    term: "trench",
+    partOfSpeech: "n.",
+    definition:
+      "A slang term describing the tough, competitive environment of the crypto market, where traders face intense challenges and pressure.",
+  },
+  {
+    term: "in",
+    partOfSpeech: "prep.",
+    definition:
+      "Used to express participation or investment in a specific token or project, as in 'I'm in this token.'",
+  },
+  {
+    term: "build",
+    partOfSpeech: "v.",
+    definition:
+      "To develop or create a project, product, or platform within the crypto space, often involving technical development and community engagement.",
+  },
+  {
+    term: "call",
+    partOfSpeech: "v.",
+    definition:
+      "To decide or signal the purchase of an asset, often based on analysis or intuition, essentially making an investment move.",
+  },
+  {
+    term: "hold",
+    partOfSpeech: "v.",
+    definition:
+      "To keep an asset in one's portfolio over time rather than selling, typically reflecting a long-term investment approach.",
+  },
+  {
+    term: "redepot",
+    partOfSpeech: "v.",
+    definition:
+      "To re-enter the market or rebuild one's trading portfolio after incurring significant losses, effectively starting fresh with new capital.",
+  },
+  {
+    term: "round-trip",
+    partOfSpeech: "v.",
+    definition:
+      "Describes the complete cycle of an investment from entry to exit, often marked by dramatic price fluctuations and emotional highs and lows.",
+  },
+  {
+    term: "rug-pull",
+    partOfSpeech: "v.",
+    definition:
+      "To abruptly withdraw liquidity or abandon a project, effectively scamming investors by leaving them with valueless tokens.",
+  },
+  {
+    term: "sideline",
+    partOfSpeech: "v.",
+    definition:
+      "To temporarily withdraw or refrain from active participation in the market, often due to uncertainty or risk aversion.",
+  },
+  {
+    term: "out",
+    partOfSpeech: "prep.",
+    definition:
+      "Used to indicate non-participation or having exited a position, as in 'I'm out of this trade,' implying a deliberate non-active stance.",
+  },
+  {
+    term: "motion",
+    partOfSpeech: "adj.",
+    definition:
+      "Describes a trader whose actions create momentum in the market, influencing others to copy their trades due to perceived expertise.",
+  },
 ]
 
 // Set "new" terms (adjust this list as needed)
