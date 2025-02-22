@@ -3,7 +3,12 @@
 import { useState, useRef, useEffect } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Term } from "./word-of-the-day"
+
+export interface Term {
+  readonly term: string
+  readonly definition: string
+  readonly partOfSpeech: string
+}
 
 export const terms: Term[] = [
   {
@@ -815,7 +820,7 @@ export const terms: Term[] = [
     term: "fullport",
     partOfSpeech: "n.",
     definition:
-      "A slang term for an investor’s entire portfolio of assets, often used to discuss overall exposure in the crypto market.",
+      "A slang term for an investor's entire portfolio of assets, often used to discuss overall exposure in the crypto market.",
   },
   {
     term: "gen-wealth",
@@ -833,13 +838,13 @@ export const terms: Term[] = [
     term: "hands",
     partOfSpeech: "n.",
     definition:
-      "Refers to an investor’s resolve in holding assets; 'diamond hands' indicate strong conviction, while 'paper hands' imply a tendency to sell under pressure.",
+      "Refers to an investor's resolve in holding assets; 'diamond hands' indicate strong conviction, while 'paper hands' imply a tendency to sell under pressure.",
   },
   {
     term: "house-money",
     partOfSpeech: "n.",
     definition:
-      "Funds viewed as less risky because they originate from trading profits rather than the investor’s original capital.",
+      "Funds viewed as less risky because they originate from trading profits rather than the investor's original capital.",
   },
   {
     term: "memecoin",
