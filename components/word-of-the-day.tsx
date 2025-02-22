@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { newTerms, Term } from "@/components/term-list"
+import { Term, newTerms } from "@/lib/terms"
 
 function getWordOfTheDay(terms: readonly Term[]): Term {
   // Use the current date as a seed for the random selection

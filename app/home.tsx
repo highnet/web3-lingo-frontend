@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { SearchInput } from "@/components/search-input"
-import { TermList, terms } from "@/components/term-list"
+import { TermList } from "@/components/term-list"
+import { terms } from "@/lib/terms"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { WordOfTheDay } from "@/components/word-of-the-day"
 
