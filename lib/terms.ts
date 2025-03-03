@@ -951,4 +951,4 @@ export const terms: Term[] = [
 ]
 
 // Set "new" terms (adjust this list as needed)
-export const newTerms = ["Clipping", "Top Blast", "Stable", "PVP", "PVE"]
+export const newTerms = ["clip", "stable", "PVP", "PVE"]
