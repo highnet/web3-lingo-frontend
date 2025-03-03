@@ -7,7 +7,7 @@ export async function generateMetadata({ params }: { params: { term: string } })
   const term = terms.find((t) => t.term.toLowerCase() === params.term.toLowerCase())
   return term
     ? {
-        title: `${term.term} - Chainopedia`,
+        title: `${term.term} Definition And Meaning`,
         description: term.definition,
       }
     : {
