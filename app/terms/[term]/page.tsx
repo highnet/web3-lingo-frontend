@@ -2,7 +2,7 @@
 import { notFound } from "next/navigation"
 import { terms } from "@/lib/terms"
 import Link from "next/link"
-
+import { TermList } from "@/components/term-list"
 export async function generateMetadata({ params }: { params: { term: string } }) {
   const term = terms.find((t) => t.term.toLowerCase() === params.term.toLowerCase())
   return term
@@ -22,14 +22,9 @@ export default function TermPage({ params }: Readonly<{ params: { term: string }
 
   return (
     <div className="max-w-3xl mx-auto">
-      <div className="flex items-center gap-2 mb-6">
-        <h1 className="text-4xl font-bold">{term.term}</h1>
-        <p className="text-muted-foreground italic">{term.partOfSpeech}</p>
+      <div className="mt-8">
+        <TermList term={term.term} />
       </div>
-      <p className="text-muted-foreground">
-        {term.syllables.length > 1 && term.syllables.join("·")}
-      </p>
-      <p className="text-lg leading-relaxed mb-8">{term.definition}</p>
       <Link href="/" className="text-primary hover:underline inline-flex items-center">
         ← Back to all terms
       </Link>

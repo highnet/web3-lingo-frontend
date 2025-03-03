@@ -1056,13 +1056,6 @@ export const terms: Term[] = [
     syllables: ["trench"],
   },
   {
-    term: "in",
-    partOfSpeech: "prep.",
-    definition:
-      "Used to express participation or investment in a specific token or project, as in 'I'm in this token.'",
-    syllables: ["in"],
-  },
-  {
     term: "build",
     partOfSpeech: "v.",
     definition:
