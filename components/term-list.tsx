@@ -1,6 +1,5 @@
 "use client"
 
-import { useRef } from "react"
 import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -11,8 +10,6 @@ interface TermListProps {
 }
 
 export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
-  const termRefs = useRef<{ [key: string]: HTMLDivElement | null }>({})
-
   // Sort terms alphabetically
   const sortedTerms = [...terms].sort((a, b) => a.term.localeCompare(b.term))
 
