@@ -55,7 +55,8 @@ export const terms: Term[] = [
   {
     term: "beta",
     partOfSpeech: "n.",
-    definition: "A measure of volatility or systematic risk compared to the broader market.",
+    definition:
+      "A secondary token or imitative project that follows the narrative of an original meme or concept. Example: Shiba Inu as a 'beta play' of Dogecoin.",
   },
   {
     term: "bid",
@@ -610,7 +611,8 @@ export const terms: Term[] = [
   {
     term: "tip",
     partOfSpeech: "n.",
-    definition: "Information or advice about potential trading opportunities.",
+    definition:
+      "Additional cryptocurrency added to a transaction to prioritize its inclusion in a block, often used to speed up processing.",
   },
   {
     term: "token",
@@ -748,7 +750,7 @@ export const terms: Term[] = [
     term: "bubble-map",
     partOfSpeech: "n.",
     definition:
-      "A visual chart where bubbles represent different cryptocurrencies, often sized by market capitalization or other key metrics.",
+      "A visualization showing token holders' distribution, often used to analyze wallet concentrations or bundled token holdings.",
   },
   {
     term: "bundle",
@@ -947,6 +949,48 @@ export const terms: Term[] = [
     partOfSpeech: "adj.",
     definition:
       "Describes a trader whose actions create momentum in the market, influencing others to copy their trades due to perceived expertise.",
+  },
+  {
+    term: "sandwich",
+    partOfSpeech: "n.",
+    definition:
+      "A MEV (Maximal Extractable Value) strategy where a target transaction is placed between two attacker transactions to exploit price changes.",
+  },
+  {
+    term: "depeg",
+    partOfSpeech: "n.",
+    definition:
+      "When a stablecoin loses its 1:1 parity with the underlying asset (typically USD), trading significantly above or below its intended peg.",
+  },
+  {
+    term: "bull",
+    partOfSpeech: "n.",
+    definition:
+      "A market participant who believes prices will rise, often driving upward momentum through optimistic buying behavior.",
+  },
+  {
+    term: "bear",
+    partOfSpeech: "n.",
+    definition:
+      "A market participant expecting price declines, typically selling assets or shorting to profit from downward movements.",
+  },
+  {
+    term: "short",
+    partOfSpeech: "v.",
+    definition:
+      "To bet against an asset by borrowing and selling it, hoping to repurchase later at a lower price and profit from the difference.",
+  },
+  {
+    term: "long",
+    partOfSpeech: "v.",
+    definition:
+      "To hold an asset with the expectation of price appreciation over time, or to take a leveraged position betting on upward movement.",
+  },
+  {
+    term: "10x",
+    partOfSpeech: "v.",
+    definition:
+      "To achieve tenfold returns on an investment. Also used as a target for exponential growth potential in crypto projects.",
   },
 ]
 
