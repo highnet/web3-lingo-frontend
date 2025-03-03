@@ -55,7 +55,7 @@ export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
   }
 
   return (
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-6">
       {filteredTerms.map((item) => (
         <Link
           key={item.term}

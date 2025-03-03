@@ -5,6 +5,7 @@ import { SearchInput } from "@/components/search-input"
 import { TermList } from "@/components/term-list"
 import { terms } from "@/lib/terms"
 import { WordOfTheDay } from "@/components/word-of-the-day"
+import { DeployedBranch } from "@/components/deployed-branch"
 
 // Define constants for timing
 const WORD_CHANGE_INTERVAL = 3000 // Time in milliseconds for word change
@@ -85,6 +86,7 @@ export default function Home() {
       <WordOfTheDay terms={terms} />
       <SearchInput onSearch={setSearchTerm} />
       <TermList searchTerm={searchTerm} />
+      <DeployedBranch />
     </>
   )
 }
