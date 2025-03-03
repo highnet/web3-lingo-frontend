@@ -38,7 +38,8 @@ export default function RootLayout({
 
           <footer className="border-t mt-12">
             <div className="container mx-auto px-4 py-6 text-center text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Chainopedia. All rights reserved.
+              © {new Date().getFullYear()} Chainopedia. All rights reserved. Contact Us:
+              joaquintelleria@gmail.com
             </div>
           </footer>
         </ThemeProvider>
