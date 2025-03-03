@@ -34,6 +34,9 @@ export function WordOfTheDay({ terms }: Readonly<{ terms: readonly Term[] }>) {
               </Badge>
             )}
           </div>
+          <h4 className="text-muted-foreground">
+            {wordOfTheDay.syllables.length > 1 && wordOfTheDay.syllables.join("·")}
+          </h4>
           <CardDescription className="line-clamp-2">{wordOfTheDay.definition}</CardDescription>
         </CardContent>
       </Card>

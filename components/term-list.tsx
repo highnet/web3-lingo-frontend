@@ -78,7 +78,10 @@ export function TermList({ searchTerm = "" }: Readonly<TermListProps>) {
             </CardHeader>
             <CardContent>
               <CardDescription className="line-clamp-3">
-                {renderDefinition(item.definition)}
+                <p className="text-muted-foreground">
+                  {item.syllables.length > 1 && item.syllables.join("·")}
+                </p>
+                <p>{renderDefinition(item.definition)}</p>
               </CardDescription>
             </CardContent>
           </Card>

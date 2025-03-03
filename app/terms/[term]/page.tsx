@@ -22,8 +22,13 @@ export default function TermPage({ params }: Readonly<{ params: { term: string }
 
   return (
     <div className="max-w-3xl mx-auto">
-      <h1 className="text-4xl font-bold mb-2">{term.term}</h1>
-      <p className="text-muted-foreground italic mb-6">{term.partOfSpeech}</p>
+      <div className="flex items-center gap-2 mb-6">
+        <h1 className="text-4xl font-bold">{term.term}</h1>
+        <p className="text-muted-foreground italic">{term.partOfSpeech}</p>
+      </div>
+      <p className="text-muted-foreground">
+        {term.syllables.length > 1 && term.syllables.join("·")}
+      </p>
       <p className="text-lg leading-relaxed mb-8">{term.definition}</p>
       <Link href="/" className="text-primary hover:underline inline-flex items-center">
         ← Back to all terms
