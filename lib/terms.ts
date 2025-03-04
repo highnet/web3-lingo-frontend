@@ -1300,8 +1300,8 @@ export const terms: Term[] = [
     partOfSpeech: "v.",
     definition:
       "To bet against an asset by borrowing and selling it, hoping to repurchase later at a lower price and profit from the difference.",
-    syllables: ["ˈʃɔːrt"],
-    phonetics: "",
+    syllables: ["short"],
+    phonetics: "ˈʃɔːrt",
   },
   {
     term: "long",
