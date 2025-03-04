@@ -58,11 +58,17 @@ yarn lint
 ## Key Dependencies
 
 Framework: `next`, `react`, `react-dom`
+
 Styling: `tailwindcss`, `class-variance-authority`, `tailwind-merge`
+
 UI Components: `Various @radix-ui/react-*` packages (e.g., accordion, dialog, toast)
+
 Forms: `react-hook-form`, `zod`
+
 Utilities: `date-fns`, `cls1`, `cmdk`
+
 Visuals: `recharts`, `embla-carousel-react`, `lucide-react`
+
 For a full list and version numbers, see `package.json`.
 
 ## Contributing
