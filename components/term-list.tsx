@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { terms, newTerms } from "@/lib/terms"
 import { Button } from "./ui/button"
+import { Volume2Icon } from "lucide-react"
 
 interface TermListProps {
   searchTerm?: string
@@ -117,7 +118,7 @@ export function TermList({
                 )}
               </div>
               <Button
-                className="w-fit"
+                className="w-fit flex items-center"
                 variant={"outline"}
                 size={"sm"}
                 onClick={(e) => {
@@ -125,7 +126,10 @@ export function TermList({
                   speak(item.term)
                 }}
               >
-                Speak
+                <div className="flex items-center gap-1">
+                  {item.phonetics}
+                  <Volume2Icon />
+                </div>
               </Button>
             </CardHeader>
             <CardContent>
