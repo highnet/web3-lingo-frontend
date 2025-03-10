@@ -133,11 +133,14 @@ export function TermList({
               </Button>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-lg mt-2">
                 {item.syllables.length > 1 && item.syllables.join("·")}{" "}
               </p>
-              <CardDescription className="">
+              <CardDescription>
                 <p>{renderDefinition(item.definition)}</p>
+                <p className="text-muted-foreground italic text-xs mt-2">
+                  "{item.usageInASentence}"
+                </p>
               </CardDescription>
             </CardContent>
           </Card>
