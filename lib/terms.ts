@@ -180,12 +180,12 @@ export const terms: Term[] = [
     phonetics: "ˈkɑːmz",
   },
   {
-    term: "contract",
+    term: "smart-contract",
     partOfSpeech: "n.",
     definition:
-      "A smart contract deployed on a blockchain that defines the rules and functionality of a token or project.",
-    syllables: ["con", "tract"],
-    phonetics: "ˈkɑːnˌtrækt",
+      "Self-executing code deployed on a blockchain that automatically enforces agreement terms when predetermined conditions are met.",
+    syllables: ["smart", "con", "tract"],
+    phonetics: "ˈsmɑːrtˈkɑːnˌtrækt",
   },
   {
     term: "cope",
@@ -1318,6 +1318,102 @@ export const terms: Term[] = [
       "To achieve tenfold returns on an investment. Also used as a target for exponential growth potential in crypto projects.",
     syllables: ["10", "x"],
     phonetics: "ˈten ˈeks",
+  },
+  {
+    term: "multi-sig",
+    partOfSpeech: "n.",
+    definition:
+      "Short for multi-signature; a security protocol requiring multiple cryptographic signatures to authorize a blockchain transaction.",
+    syllables: ["mul", "ti", "sig"],
+    phonetics: "ˈmʌlti ˈsɪɡ",
+  },
+  {
+    term: "validator",
+    partOfSpeech: "n.",
+    definition:
+      "A network node responsible for verifying transactions and participating in consensus mechanisms in proof-of-stake blockchain systems.",
+    syllables: ["val", "i", "da", "tor"],
+    phonetics: "ˈvælədetɔːr",
+  },
+  {
+    term: "miner",
+    partOfSpeech: "n.",
+    definition:
+      "A participant in a proof-of-work blockchain network who validates transactions and creates new blocks through computational work.",
+    syllables: ["min", "er"],
+    phonetics: "ˈmaɪnər",
+  },
+  {
+    term: "block",
+    partOfSpeech: "n.",
+    definition:
+      "A data structure containing a batch of validated transactions that is permanently recorded on a blockchain.",
+    syllables: ["block"],
+    phonetics: "ˈblɑːk",
+  },
+  {
+    term: "cold-wallet",
+    partOfSpeech: "n.",
+    definition:
+      "A cryptocurrency storage method where private keys are kept offline for enhanced security against hacking attempts.",
+    syllables: ["cold", "wal", "let"],
+    phonetics: "ˈkoʊld ˈwɒlət",
+  },
+  {
+    term: "hot-wallet",
+    partOfSpeech: "n.",
+    definition:
+      "A cryptocurrency wallet connected to the internet, enabling convenient but less secure access to digital assets.",
+    syllables: ["hot", "wal", "let"],
+    phonetics: "ˈhɒtˈwɒlət",
+  },
+  {
+    term: "private-key",
+    partOfSpeech: "n.",
+    definition:
+      "A secret cryptographic code that allows access to specific blockchain assets and must be kept secure by the owner.",
+    syllables: ["pri", "vate", "key"],
+    phonetics: "ˈpraɪvətˈkiː ",
+  },
+  {
+    term: "public-key",
+    partOfSpeech: "n.",
+    definition:
+      "A cryptographic code paired with a private-key, publicly shared to receive cryptocurrency transactions.",
+    syllables: ["pub", "lic", "key"],
+    phonetics: "ˈpraɪvətˈkiː ",
+  },
+  {
+    term: "sign",
+    partOfSpeech: "v.",
+    definition:
+      "The cryptographic process of authorizing a blockchain transaction using a private key to create a digital signature.",
+    syllables: ["sign"],
+    phonetics: "ˈsaɪn",
+  },
+  {
+    term: "mixer",
+    partOfSpeech: "n.",
+    definition:
+      "A service that obscures the origin of cryptocurrency transactions by combining multiple transactions together.",
+    syllables: ["mix", "er"],
+    phonetics: "ˈmɪksər",
+  },
+  {
+    term: "KYC",
+    partOfSpeech: "n.",
+    definition:
+      "Acronym for 'Know Your Customer'; identity verification procedures used by financial institutions to prevent fraud.",
+    syllables: ["K", "Y", "C"],
+    phonetics: "ˈkeɪ ˈwaɪ ˈsiː",
+  },
+  {
+    term: "extract",
+    partOfSpeech: "v.",
+    definition:
+      "The process of converting or redeeming value from a digital token, typically through exchanges, smart contracts, or decentralized applications.",
+    syllables: ["ex", "tract"],
+    phonetics: "ɪkˈstrækt",
   },
 ]
 
