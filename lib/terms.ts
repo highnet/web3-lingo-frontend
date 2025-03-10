@@ -1708,6 +1708,16 @@ export const terms: Term[] = [
     phonetics: "ɪkˈstrækt",
     usageInASentence: "She used a decentralized app to extract profits from her staked tokens.",
   },
+  {
+    term: "NFT",
+    partOfSpeech: "n.",
+    definition:
+      "Non-Fungible Token. A unique digital asset on a blockchain, representing ownership of a specific item, often used for art, collectibles, or virtual goods.",
+    syllables: ["N", "F", "T"],
+    phonetics: "ˈen ˈef ˈtiː",
+    usageInASentence:
+      "She bought an NFT of a rare digital artwork, hoping its value would increase over time.",
+  },
 ]
 
 // Set "new" terms (adjust this list as needed)
