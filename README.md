@@ -5,8 +5,6 @@
 - **Next.js**: App Router, Server Components, and optimized performance.
 - **Radix UI Primitives**: Accessible and customizable UI components.
 - **Tailwind CSS**: Utility-first styling with animations via `tailwindcss-animate`.
-- **The `TermList`** component demonstrates the project's capabilities:
-- **Dynamic Linking**: Terms in definitions link to their respective pages.
 
 ## Prerequisites
 
@@ -62,12 +60,6 @@ Framework: `next`, `react`, `react-dom`
 Styling: `tailwindcss`, `class-variance-authority`, `tailwind-merge`
 
 UI Components: `Various @radix-ui/react-*` packages (e.g., accordion, dialog, toast)
-
-Forms: `react-hook-form`, `zod`
-
-Utilities: `date-fns`, `cls1`, `cmdk`
-
-Visuals: `recharts`, `embla-carousel-react`, `lucide-react`
 
 For a full list and version numbers, see `package.json`.
 
