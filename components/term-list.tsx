@@ -133,7 +133,7 @@ export function TermList({
               </Button>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground text-lg mt-2">
+              <p className="text-muted-foreground text-lg">
                 {item.syllables.length > 1 && item.syllables.join("·")}{" "}
               </p>
               <CardDescription>
