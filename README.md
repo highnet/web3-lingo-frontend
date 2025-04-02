@@ -16,8 +16,8 @@
 1.  Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/my-v0-project.git
-cd my-v0-project
+git clone https://github.com/highnet/web3-lingo-frontend.git
+cd web3-lingo-frontend
 ```
 
 2. Install dependencies using Yarn:
