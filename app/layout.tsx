@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Link from "next/link"
+import Image from "next/image"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -27,7 +28,14 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <header className="border-b">
             <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-              <Link href="/" className="text-2xl font-bold">
+              <Link href="/" className="flex items-center text-2xl font-bold">
+                <Image
+                  src="/logo.svg"
+                  alt="Chainopedia Logo"
+                  width={20}
+                  height={20}
+                  className="mr-3"
+                />
                 Chainopedia
               </Link>
               <ThemeToggle />
